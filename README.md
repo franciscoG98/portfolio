@@ -1,3 +1,9 @@
+# Build
+npm run build
+npm run deploy
+
+Tutorial[gh-pages deploy and domain](https://www.youtube.com/watch?v=SKXkC4SqtRk).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
