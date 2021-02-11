@@ -2,7 +2,7 @@
 npm run build
 npm run deploy
 
-Tutorial[gh-pages deploy and domain](https://www.youtube.com/watch?v=SKXkC4SqtRk).
+Tutorial [gh-pages deploy and domain](https://www.youtube.com/watch?v=SKXkC4SqtRk).
 
 # Getting Started with Create React App
 
