@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 input[type="checkbox"] {
@@ -62,3 +64,17 @@ input[type="checkbox"]:checked ~ .check::before {
 input[type="checkbox"]:checked ~ .check::after {
     transform: translateX(0px);
 }
+
+.light{
+    font-weight: bolder;
+    color: #092c3e;
+    position: absolute;
+}
+
+.dark{
+    font-weight: bolder;
+    color: #fff;
+    position: absolute;
+}
+
+
