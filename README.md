@@ -2,6 +2,8 @@
 npm run build
 npm run deploy
 
+You can see my work [here](https://franciscog98.github.io/portfolio/)
+
 Tutorial [gh-pages deploy and domain](https://www.youtube.com/watch?v=SKXkC4SqtRk).
 
 # Getting Started with Create React App
