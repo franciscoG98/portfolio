@@ -5,13 +5,15 @@ import Theme from './components/Theme';
 
 function App() {
 
-  const [mode, setMode] = useState(false);
+  const [theme, setTheme] = useState(false);
+
+  // setTheme(true);
   
 
   return (
     <div className="App">
-        <Welcome mode={mode}/>
         <Theme />
+        <Welcome theme={theme}/>
     </div>
   );
 }
