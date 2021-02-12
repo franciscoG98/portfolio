@@ -1,9 +1,9 @@
-body {
+.body {
     margin: 0;
     padding: 0;
     display: flex;
+    align-content: center;
     justify-content: center;
-    align-items: center;
 }
 
 input[type="checkbox"] {
@@ -13,11 +13,11 @@ input[type="checkbox"] {
 }
 
 .check {
-    margin-top: 10px;
+    margin: 10px;
     position: relative;
     display: block;
-    width: 40px;
-    height: 20px;
+    width: 70px;
+    height: 40px;
     background: #092c3e;
     cursor: pointer;
     border-radius: 20px;
@@ -34,11 +34,11 @@ input[type="checkbox"]:checked ~ .check{
     margin-right: 10px;
     content: '';
     position: absolute;
-    top: 2px;
-    left: 2px;
+    top: 5px;
+    left: 5px;
     background: #fff;
-    width: 16px;
-    height: 16px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     transition: 0.5s;
 }
@@ -51,11 +51,11 @@ input[type="checkbox"]:checked ~ .check::before {
     margin-left: 10px;
     content: '';
     position: absolute;
-    top: 2px;
-    right: 2px;
+    top: 5px;
+    right: 5px;
     background: #092c3e;
-    width: 16px;
-    height: 16px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     transition: 0.5s;
     transform: translateX(50px);
@@ -66,15 +66,26 @@ input[type="checkbox"]:checked ~ .check::after {
 }
 
 .light{
-    font-weight: bolder;
+    margin-left: 40%;
     color: #092c3e;
     position: absolute;
+    transition: 2s;
+    
 }
 
 .dark{
-    font-weight: bolder;
+    margin-left: 40%;
     color: #fff;
     position: absolute;
+    transition: 2s;
 }
 
+.container {
+    width: 40%;
+}
 
+span {
+    position: relative;
+    align-content: flex-end;
+    align-self: flex-end;
+}
