@@ -8,7 +8,8 @@ export default function Theme() {
     const mode = theme ? 'light' : 'dark';
 
     return (
-        <div className='container'>
+        // <div className='container'>
+        <div>
             <label>
                 <input type="checkbox" />
                 <span className="check" id={mode} onClick={() => setTheme(!theme)}></span>
