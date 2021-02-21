@@ -1,20 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Theme.css';
 
-export default function Theme() {
+export default function Theme(props) {
 
-    const [theme, setTheme] = useState(true)
-
-    const mode = theme ? 'light' : 'dark';
+    const mode = props.theme ? 'dark' : 'light';
 
     return (
         <div>
             <label>
                 <input type="checkbox" />
-                <span className="check" id={mode} onClick={() => setTheme(!theme)}></span>
+                <span className="check" id={mode} onClick={() => props.setTheme(!props.theme)}></span>
             </label>
-
-            {/* {console.log('theme:\n', theme, '\n mode \n', mode)} */}
 
             <div className={mode}>
                 <h1>Hello!</h1>
