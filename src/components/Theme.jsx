@@ -3,7 +3,9 @@ import './Theme.css';
 
 export default function Theme(props) {
 
-    const mode = props.theme ? 'dark' : 'light';
+    // const mode = props.theme ? 'dark' : 'light';
+    const mode = props.theme ? 'light' : 'dark';
+
 
     return (
         <div>
