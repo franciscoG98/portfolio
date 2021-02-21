@@ -5,18 +5,15 @@ import NavBar from './components/Navbar';
 
 function App() {
 
-  const [theme, setTheme] = useState(false);
+  const [theme, setTheme] = useState(true);
+
+  theme ? console.log('theme: ', theme, '\n light') : console.log('theme: ', theme, '\n dark')
+
 
 
   return (
     <>
-      {
-        theme ? (
-          <h3>theme esta en falso</h3>
-          ) : (
-            <NavBar theme={theme} />
-          )
-      }
+      <NavBar theme={theme} />
       <Theme theme={theme} setTheme={setTheme} />
 
     </>

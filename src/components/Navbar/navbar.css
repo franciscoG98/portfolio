@@ -1,10 +1,11 @@
-.light{
+.light1 {
     font-weight: bolder;
     color: #092c3e;
     position: relative;
+
 }
 
-.dark{
+.dark1 {
     font-weight: bolder;
     color: #fff;
     position: relative;

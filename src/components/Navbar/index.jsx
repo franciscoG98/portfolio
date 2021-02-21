@@ -8,16 +8,19 @@ function Nabvar(props) {
         document.title = `You clicked ${bla} times`;  
     });
 
-    const mode = props.theme ? 'light' : 'dark';
+    const aber = props.theme ? 'light1' : 'dark1';
     
 
     return (
-        <div className={mode}>
-            <p>You clickcwsdcsdcsded times</p>
+        <div className={aber}>
 
 
-            <button onClick={() => setBla(bla + 1)} >
-                Click me
+            <button  onClick={() => setBla(bla + 1)} >
+                +
+            </button>
+            <p>You clicked {bla} times</p>
+            <button  onClick={() => setBla(bla - 1)} >
+                -
             </button>
         </div>
     )
