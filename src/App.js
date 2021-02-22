@@ -1,7 +1,8 @@
 import './App.css';
 import React, { useState } from 'react';
 import Theme from './components/Theme';
-import NavBar from './components/Navbar';
+
+
 
 function App() {
 
@@ -9,11 +10,8 @@ function App() {
 
   theme ? console.log('theme: ', theme, '\n light') : console.log('theme: ', theme, '\n dark')
 
-
-
   return (
     <>
-      <NavBar theme={theme} />
       <Theme theme={theme} setTheme={setTheme} />
 
     </>

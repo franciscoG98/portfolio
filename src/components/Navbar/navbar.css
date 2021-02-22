@@ -1,12 +1,16 @@
-.light1 {
+.day {
     font-weight: bolder;
     color: #092c3e;
-    position: relative;
+    position: absolute;
+    font-size: 100px;
+    padding: 10px;
 
 }
 
-.dark1 {
+.night {
     font-weight: bolder;
     color: #fff;
-    position: relative;
+    position: absolute;
+    font-size: 100px;
+    padding: 10px;
 }

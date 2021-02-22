@@ -1,5 +1,6 @@
 import React from 'react';
 import './Theme.css';
+import NavBar from './Navbar';
 
 export default function Theme(props) {
 
@@ -13,6 +14,9 @@ export default function Theme(props) {
                 <input type="checkbox" />
                 <span className="check" id={mode} onClick={() => props.setTheme(!props.theme)}></span>
             </label>
+
+            <NavBar theme={props.theme} />
+
 
             <div className={mode}>
                 <h1>Hello!</h1>

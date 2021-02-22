@@ -33,7 +33,7 @@ input[type="checkbox"]:checked ~ .check{
 .check:before {
     margin-right: 10px;
     content: '';
-    position: absolute;
+    position: absolute; /*si pongo relative se va el puntito, lo podria cambiar a un sol y una luna*/
     top: 2px;
     left: 2px;
     background: #fff;
