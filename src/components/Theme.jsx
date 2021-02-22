@@ -17,7 +17,6 @@ export default function Theme(props) {
 
             <NavBar theme={props.theme} />
 
-
             <div className={mode}>
                 <h1>Hello!</h1>
                 <span>I'm Francisco, I like coding :)</span>

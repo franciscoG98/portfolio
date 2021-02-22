@@ -1,16 +1,15 @@
 .day {
     font-weight: bolder;
     color: #092c3e;
-    position: absolute;
-    font-size: 100px;
+    position: relative;
+    font-size: 50px;
     padding: 10px;
-
 }
 
 .night {
     font-weight: bolder;
     color: #fff;
-    position: absolute;
-    font-size: 100px;
+    position: relative;
+    font-size: 50px;
     padding: 10px;
 }
