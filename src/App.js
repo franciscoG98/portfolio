@@ -1,8 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-import Theme from './components/Theme';
-
-
+import NavBar from './components/Navbar';
 
 function App() {
 
@@ -12,8 +10,7 @@ function App() {
 
   return (
     <>
-      <Theme theme={theme} setTheme={setTheme} />
-
+      <NavBar theme={theme} setTheme={setTheme} />
     </>
   );
 }

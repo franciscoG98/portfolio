@@ -1,15 +1,22 @@
 .day {
-    font-weight: bolder;
     color: #092c3e;
-    position: relative;
-    font-size: 50px;
-    padding: 10px;
 }
 
 .night {
-    font-weight: bolder;
     color: #fff;
+}
+
+a {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.container {
+    font-weight: bolder;
     position: relative;
-    font-size: 50px;
+    font-size: 30px;
     padding: 10px;
 }

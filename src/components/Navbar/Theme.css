@@ -22,7 +22,7 @@ input[type="checkbox"] {
     cursor: pointer;
     border-radius: 20px;
     overflow: hidden;
-    transition: ease-in 0.5s;
+    transition: ease-in 1s;
 }
 
 input[type="checkbox"]:checked ~ .check{
