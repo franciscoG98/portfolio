@@ -19,11 +19,11 @@ function App() {
     <Router>
       <NavBar theme={theme} setTheme={setTheme} />
       <Switch>
-        <Route path='/' exact component={Home}/>
-        <Route path='/about' component={About}/>
-        <Route path='/skills' component={Skills}/>
-        <Route path='/work' component={Work}/>
-        <Route path='/contact' component={Contact}/>
+        <Route exact path='/portfolio' component={Home}/>
+        <Route path='/portfolio/about' component={About}/>
+        <Route path='/portfolio/skills' component={Skills}/>
+        <Route path='/portfolio/work' component={Work}/>
+        <Route path='/portfolio/contact' component={Contact}/>
       </Switch>
     </Router>
   );
