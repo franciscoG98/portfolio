@@ -1,11 +1,12 @@
 .day {
     color: #092c3e;
+    transition: 2s;
 }
 
 .night {
     color: #fff;
+    transition: 2s;
 }
-
 a {
     /* padding-left: 50px;
     padding-right: 50px; */
