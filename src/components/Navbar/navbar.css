@@ -7,16 +7,28 @@
 }
 
 a {
-    padding-left: 50px;
-    padding-right: 50px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    padding-left: 70px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: space-between; */
     text-decoration: none;
     color: #fff;
-
 }
 
 .container {
+    width: 100%;
     font-weight: bolder;
     position: relative;
     font-size: 30px;
     padding: 10px;
+}
+
+.left{
+    width: 80%;
+}
+
+.right {
+    width: 20%;
 }

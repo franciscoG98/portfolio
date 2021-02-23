@@ -3,6 +3,14 @@ npm run build
 npm run deploy
 
 Tutorial [gh-pages deploy and domain](https://www.youtube.com/watch?v=SKXkC4SqtRk).
+Tutorial [navigation](https://youtu.be/VzWBLj_CfpE).
+Tutorial [theme](https://www.youtube.com/watch?v=_f036OpnuWo).
+
+
+yarn add
+react-router-dom
+react-icons
+
 
 # Getting Started with Create React App
 
