@@ -29,5 +29,4 @@ function Nabvar(props) {
     )
 }
 
-export default Nabvar
-
+export default Nabvar;

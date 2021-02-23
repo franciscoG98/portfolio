@@ -23,7 +23,7 @@ input[type="checkbox"] {
     cursor: pointer;
     border-radius: 20px;
     overflow: hidden;
-    transition: ease-in 1s;
+    transition: ease-in 0.5s;
 }
 
 input[type="checkbox"]:checked ~ .check{
@@ -70,12 +70,14 @@ input[type="checkbox"]:checked ~ .check::after {
     font-weight: bolder;
     color: #092c3e;
     position: relative;
+    transition: 2s;
 }
 
 .dark{
     font-weight: bolder;
     color: #fff;
     position: relative;
+    transition: 2s;
 }
 
 
