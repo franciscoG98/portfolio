@@ -10,7 +10,7 @@ export default function Theme(props) {
         <div>
             <label>
                 <input type="checkbox" />
-                <span className="check blabla" id={mode} onClick={() => props.setTheme(!props.theme)}></span>
+                <span className="check" id={mode} onClick={() => props.setTheme(!props.theme)}></span>
             </label>
 
             {/* <div className={mode}>

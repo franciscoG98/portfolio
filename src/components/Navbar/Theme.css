@@ -2,11 +2,8 @@
     margin: 0;
     padding: 0;
     display: flex;
-<<<<<<< HEAD:src/components/Theme.css
     align-content: center;
-=======
     /* position: relative; */
->>>>>>> sections:src/components/Navbar/Theme.css
     justify-content: center;
  
 }
@@ -76,22 +73,14 @@ input[type="checkbox"]:checked ~ .check::after {
 .light{
     margin-left: 40%;
     color: #092c3e;
-<<<<<<< HEAD:src/components/Theme.css
     position: absolute;
-=======
-    position: relative;
->>>>>>> sections:src/components/Navbar/Theme.css
     transition: 2s;
 }
 
 .dark{
     margin-left: 40%;
     color: #fff;
-<<<<<<< HEAD:src/components/Theme.css
     position: absolute;
-=======
-    position: relative;
->>>>>>> sections:src/components/Navbar/Theme.css
     transition: 2s;
 }
 /* 
