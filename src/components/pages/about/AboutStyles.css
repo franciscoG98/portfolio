@@ -4,10 +4,10 @@
     align-items: center;
 }
 
-/* .dia {
+.dia {
     color: #092c3e;
     transition: 2s;
-} */
+}
 
 .noche {
     position: absolute;
@@ -16,15 +16,27 @@
 }
 
 .top {
-    font-size: 4.5vh;
+    width: 80%;
+    padding: 10px;
+    font-size: 25px;
+    background-color: #365;
     color:#092c3e;
-    transition: 2s;
     font-weight: bolder;
-    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    position: relative;
+    transition: 2s;
 }
 
 h2{
     text-align: center;
+}
+
+.fantasia {
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 130px;
 }
 
 .education {
@@ -35,13 +47,16 @@ h2{
     background: linear-gradient(120deg, #F66B6B, #5B71BF);
     width: 50%;
     float: left;
+    margin-bottom: 17px;
+
 }
+
 .hobbies {
     color:#092c3e;
     transition: 2s;
     font-weight: bolder;
     align-content: center;
-    background: linear-gradient(120deg, #5B71BF, #F66B6B);
+    background: linear-gradient(240deg, #F66B6B, #5B71BF);
     width: 50%;
     float: left;
 }
@@ -53,8 +68,4 @@ img {
     -moz-transition: all 2s ease;
     -ms-transition: all 2s ease;
     transition: all 2s ease;
-}
-
-.content {
-    background-color: teal;
 }
