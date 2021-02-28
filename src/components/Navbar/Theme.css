@@ -59,14 +59,14 @@ input[type="checkbox"]:checked ~ .check::after {
     transform: translateX(0px);
 }
 
-.light{
+#light{
     font-weight: bolder;
     color: #092c3e;
     position: relative;
     transition: 2s;
 }
 
-.dark{
+#dark{
     font-weight: bolder;
     color: #fff;
     position: relative;

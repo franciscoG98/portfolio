@@ -3,20 +3,21 @@ import './Theme.css';
 
 export default function Theme(props) {
 
-    const mode = props.theme ? 'light' : 'dark';
+    // const mode = props.theme ? 'light' : 'dark';
 
+
+    console.log('theme en theme:', props.theme);
 
     return (
         <div>
             <label>
                 <input type="checkbox" />
-                <span className="check" id={mode} onClick={() => props.setTheme(!props.theme)}></span>
+                <span
+                    className="check"
+                    id={props.theme}
+                    onClick={() => props.theme ==='light' ? props.setTheme('dark') : props.setTheme('light') }
+                ></span>
             </label>
-
-            {/* <div className={mode}>
-                <h1>Hello!</h1>
-                <span>I'm Francisco, I like coding :)</span>
-            </div> */}
         </div>
     )
 }

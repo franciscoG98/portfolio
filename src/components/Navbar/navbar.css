@@ -1,27 +1,33 @@
-.d {
+.light {
+    background-color: #092c3e;
+    color: #092c3e;
+    position: absolute;
     transition: 2s;
 }
 
-.n {
-    border: 2px solid #fff;
+.dark {
+    background-color: #fff;
+    color: #fff;
+    position: absolute;
     transition: 2s;
 }
 
-a {
+.link {
     text-decoration: none;
     color: #fff;
     padding:15px;
 }
 
-.nav {
+#nav {
     width: 80%;
-    background-color: #092c3e ;
+    background-color: #092c3e;
+    border-radius: 20px;
+    border: 2px solid #fff;
     font-weight: bolder;
     padding: 10px;
     display: flex;
-    position: relative;
     font-size: 30px;
     justify-content: space-around;
     margin-left: 10%;
-    border-radius: 20px;
+    transition: 2s;
 }

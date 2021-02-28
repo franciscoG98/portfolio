@@ -12,20 +12,20 @@ import {Link} from 'react-router-dom';
 
 function Nabvar(props) {
 
-    const fondo = props.theme ? 'd' : 'n';
-
-    const nav = fondo + ' nav';
+    console.log('theme en navbar', props.theme);
 
     return (
         <div>
             <Theme theme={props.theme} setTheme={props.setTheme} />
-            <nav className={nav}>
-                <Link to="/"><AiOutlineHome/>Home</Link>
-                <Link to="/about/"><AiOutlineBook />About</Link>
-                <Link to="/work/"><AiOutlineLaptop />Work</Link>
-                <Link to="/skills/"><AiOutlineCode />Skills</Link>
-                <Link to="/contact/"><AiOutlineMail />Contact</Link>
-            </nav>
+            <div >
+                <nav id='nav' className={props.theme} >
+                    <Link className='link' to="/"><AiOutlineHome/>Home</Link>
+                    <Link className='link' to="/about/"><AiOutlineBook />About</Link>
+                    <Link className='link' to="/work/"><AiOutlineLaptop />Work</Link>
+                    <Link className='link' to="/skills/"><AiOutlineCode />Skills</Link>
+                    <Link className='link' to="/contact/"><AiOutlineMail />Contact</Link>
+                </nav>
+            </div>
         </div>
 
     )
