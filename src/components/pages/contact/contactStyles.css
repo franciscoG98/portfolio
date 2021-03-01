@@ -1,0 +1,37 @@
+.light{
+    font-weight: bolder;
+    color: #092c3e;
+    position: relative;
+    transition: 2s;
+}
+
+.dark{
+    font-weight: bolder;
+    color: #fff;
+    position: relative;
+    transition: 2s;
+}
+
+form {
+    background-color: blueviolet;
+    width: 40%;
+    margin-left: 30%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.social-media {
+    background-color: beige;
+    width: 40%;
+    margin-left: 30%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 20px;
+    align-items: center;
+}
+

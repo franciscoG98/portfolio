@@ -5,19 +5,14 @@ import FCC from '../../img/JS-FCC.png';
 
 function About(props) {
 
+    console.log('theme en about', props.theme);
+
+
     const fondo = props.theme ? 'dia' : 'noche';
     const cont = fondo + ' container';
 
     return (
         <div className={cont}>
-            <p className='top'>
-                I'm a Full Stack Developer front-end oriented from Argentina.
-                I love design and build responsive websites. My goal is to
-                make web pages or mobile apps as prettier as they can be, with the best UX
-                (user experience) possible without forgetting the perfomance. The internet is
-                to make our lives easier :)
-            </p>
-
             <div className='fantasia'>
                 <div className='education'>
                     <h2>Education</h2>

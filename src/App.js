@@ -11,10 +11,12 @@ import Contact from './components/pages/contact/Contact';
 
 function App() {
 
-  const [theme, setTheme] = useState(true);
+  const [theme, setTheme] = useState('light');
   // const [lang, setLang] = useState('es');
 
-  theme ? console.log('theme: ', theme, '\n light') : console.log('theme: ', theme, '\n dark')
+  // console.log('theme del app: ', theme);
+  // console.log('this del app: '); 
+
 
   return (
     <Router basename={process.env.PUBLIC_URL}>

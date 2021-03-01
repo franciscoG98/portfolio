@@ -5,6 +5,7 @@
 }
 
 .dia {
+    position: absolute;
     color: #092c3e;
     transition: 2s;
 }
@@ -15,18 +16,6 @@
     transition: 2s;
 }
 
-.top {
-    width: 80%;
-    padding: 10px;
-    font-size: 25px;
-    background-color: #365;
-    color:#092c3e;
-    font-weight: bolder;
-    text-align: center;
-    margin-left: 10%;
-    position: relative;
-    transition: 2s;
-}
 
 h2{
     text-align: center;

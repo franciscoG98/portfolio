@@ -8,22 +8,24 @@ import {
     AiOutlineMail,
     AiOutlineLaptop
 } from "react-icons/ai";
-import {Link} from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 
 function Nabvar(props) {
 
-    console.log('theme en navbar', props.theme);
+    // console.log('theme en navbar', props.theme);
 
     return (
         <div>
             <Theme theme={props.theme} setTheme={props.setTheme} />
             <div >
                 <nav id='nav' className={props.theme} >
-                    <Link className='link' to="/"><AiOutlineHome/>Home</Link>
-                    <Link className='link' to="/about/"><AiOutlineBook />About</Link>
-                    <Link className='link' to="/work/"><AiOutlineLaptop />Work</Link>
-                    <Link className='link' to="/skills/"><AiOutlineCode />Skills</Link>
-                    <Link className='link' to="/contact/"><AiOutlineMail />Contact</Link>
+                    <NavLink activeClassName= 'active' className='link' exact to="/"><AiOutlineHome/>Home</NavLink>
+                    <NavLink activeClassName= 'active' className='link' to="/about/"><AiOutlineBook />About</NavLink>
+                    <NavLink activeClassName= 'active' className='link' to="/work/"><AiOutlineLaptop />Work</NavLink>
+                    <NavLink activeClassName= 'active' className='link' to="/skills/"><AiOutlineCode />Skills</NavLink>
+                    <NavLink activeClassName= 'active' className='link' to="/contact/"><AiOutlineMail />Contact</NavLink>
                 </nav>
             </div>
         </div>

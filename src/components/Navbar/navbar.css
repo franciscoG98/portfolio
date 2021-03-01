@@ -15,7 +15,6 @@
 .link {
     text-decoration: none;
     color: #fff;
-    padding:15px;
 }
 
 #nav {
@@ -23,11 +22,17 @@
     background-color: #092c3e;
     border-radius: 20px;
     border: 2px solid #fff;
-    font-weight: bolder;
-    padding: 10px;
+    padding: 20px;
     display: flex;
-    font-size: 30px;
+    font-size: 170%;
     justify-content: space-around;
     margin-left: 10%;
     transition: 2s;
 }
+
+.active {
+    font-weight: bolder;
+    color: SpringGreen;
+    transition: 1s;
+}
+

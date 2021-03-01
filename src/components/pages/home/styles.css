@@ -1,16 +1,33 @@
-.day {
+.light{
+    font-weight: bolder;
     color: #092c3e;
+    position: relative;
     transition: 2s;
 }
 
-.night {
+.dark{
+    font-weight: bolder;
     color: #fff;
+    position: relative;
     transition: 2s;
 }
-
 .container {
     display: 'flex';
     justify-content: 'center';
     align-items: 'center';
     height: '90vh';
+}
+
+.top {
+    width: 80%;
+    padding: 10px;
+    font-size: 25px;
+    background-color: #365;
+    color:#092c3e;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 10%;
+    position: relative;
+    transition: 2s;
+    border-radius: 20px;
 }

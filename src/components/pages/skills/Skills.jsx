@@ -1,7 +1,30 @@
 import React from 'react';
 import './skillsStyles.css'
+import {
+    DiJavascript1,
+    DiLinux,
+    DiReact,
+    DiCss3,
+    DiSqllite, 
+    DiGit,
+    DiScrum, 
+    DiBootstrap
+} from "react-icons/di";
+import {
+    SiExpo,
+    SiMaterialUi,
+    SiRedux,
+    SiGraphql,
+    SiMongodb,
+    SiNodeDotJs,
+    SiPostgresql
+} from "react-icons/si";
+
 
 function Skills(props) {
+
+    console.log('theme en skills', props.theme);
+
 
     let fondo = props.theme ? 'dei' : 'nait';
     let skills = fondo + ' mainCont';
@@ -13,33 +36,33 @@ function Skills(props) {
             <div className='tech-cont'>
                 <h3>Front-end</h3>
                 <ul>
-                    <li>Javascript ES6</li>
-                    <li>React</li>
-                    <li>Redux</li>
-                    <li>React-native</li>
-                    <li>CSS3</li>
-                    <li>Bootstrap</li>
-                    <li>Material UI</li>
-                    <li>Expo-cli</li>
+                    <li><DiJavascript1 size={40} />Javascript ES6</li>
+                    <li><DiReact size={40} />React</li>
+                    <li><DiReact size={40} />React-native</li>
+                    <li><DiCss3 size={40} />CSS3</li>
+                    <li><DiBootstrap size={40} />Bootstrap</li>
+                    <li><SiMaterialUi size={40} />Material UI</li>
+                    <li><SiRedux size={40} />Redux</li>
+                    <li><SiExpo size={40} />Expo-cli</li>
                 </ul>
             </div>
             <div className='tech-cont'>
                 <h3>Back-end</h3>
                 <ul>
-                    <li>Node</li>
+                    <li><SiNodeDotJs size={40} />Node</li>
                     <li>Express</li>
-                    <li>PostgreSQL</li>
-                    <li>GraphQL</li>
-                    <li>SQLite</li>
-                    <li>MongoDB</li>
+                    <li><DiSqllite size={40} />SQLite</li>
+                    <li><SiPostgresql size={40} />PostgreSQL</li>
+                    <li><SiGraphql size={40} />GraphQL</li>
+                    <li><SiMongodb size={40} />MongoDB</li>
                 </ul>
             </div>
             <div className='tech-cont'>
                 <h3>other-ends</h3>
                 <ul>
-                    <li>Git(github)</li>
-                    <li>Linux Systems</li>
-                    <li>SCRUM Methodology</li>
+                    <li><DiGit size={40} />Git</li>
+                    <li><DiLinux size={40} />Linux</li>
+                    <li><DiScrum size={40} />SCRUM Methodology</li>
                 </ul>
             </div>
 
