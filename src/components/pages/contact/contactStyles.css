@@ -12,26 +12,33 @@
     transition: 2s;
 }
 
+.contactBox{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(120deg, #F66B6B, #5B71BF);
+}
+
 form {
     background-color: blueviolet;
     width: 40%;
-    margin-left: 30%;
+    margin: auto;
     position: relative;
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     padding: 30px;
     border-radius: 20px;
+    align-items: center;
 }
+
 
 .social-media {
     background-color: beige;
     width: 40%;
-    margin-left: 30%;
+    margin: auto;
     position: relative;
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     padding: 30px;
     border-radius: 20px;
-    align-items: center;
 }
-
