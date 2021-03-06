@@ -17,6 +17,7 @@
     margin: auto;
     padding: 20px;
     background: linear-gradient(120deg, #F66B6B, #5B71BF);
+    position: relative;
 }
 
 form {

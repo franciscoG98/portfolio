@@ -40,9 +40,6 @@ h2{
     width: 50%;
     position: relative;
     background: #5B71BF;
-    justify-content: space-around;
-    align-items: center;
-    align-content: flex-end;
 }
 
 .content2 {
@@ -51,9 +48,6 @@ h2{
     position: relative;
     width: 50%;
     background: #F66B6B;
-    justify-content: space-around;
-    align-items: center;
-    
 }
 
 img {
