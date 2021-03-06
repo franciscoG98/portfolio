@@ -34,10 +34,35 @@ function Contact(props) {
                 <input type="submit" value="send" />
             </form>
             <div className='social-media'>
-                <SiGithub size={60} />
-                <GrLinkedin size={60} />
-                <SiGmail size={60} />
-                <ImDownload size={60} />
+
+                <button>
+                    <SiGithub size={60} className='icon' />
+                </button>
+                <button>
+                    <GrLinkedin size={60} className='icon' />
+                </button>
+                <button>
+                    <SiGmail size={60} className='icon' />
+                </button>
+                <button>
+                    <ImDownload size={60} className='icon' />
+                </button>                
+
+                {/* <SiGithub size={60} className='icon'>
+                    <button>
+                    </button>
+                </SiGithub>
+                <GrLinkedin size={60} className='icon'>
+                    <button>
+                    </button>
+                </GrLinkedin>
+                <SiGmail size={60} className='icon'>
+                    <button></button>
+                </SiGmail>
+                <ImDownload size={60} className='icon'>
+                    <button></button>
+                </ImDownload> */}
+                 
             </div>
         </div>
 

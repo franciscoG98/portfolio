@@ -32,6 +32,14 @@ form {
     align-items: center;
 }
 
+input {
+    border-radius: 10px;
+    border: none;
+}
+
+label {
+    margin: 10px;
+}
 
 .social-media {
     background-color: beige;
@@ -42,4 +50,25 @@ form {
     justify-content: space-between;
     padding: 30px;
     border-radius: 20px;
+}
+
+.icon{
+    border: 3px solid blueviolet;
+    /* padding: 5px; */
+    border-radius: 10px;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    background-color: inherit;
+    color: blueviolet;
+}
+
+button :hover {
+    /* color: #000; */
+    /* background: linear-gradient(120deg, #F66B6B, #5B71BF); */
+    color: #fff;
+    background: #092c3e;
+    border: 3px solid #092c3e;
 }
