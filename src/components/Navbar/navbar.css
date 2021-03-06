@@ -26,13 +26,14 @@
     display: flex;
     font-size: 170%;
     justify-content: space-around;
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    margin: auto;
     transition: 2s;
+    font-weight: 400;
 }
 
 .active {
-    font-weight: bolder;
-    color: SpringGreen;
+    font-weight: 900;
     transition: 1s;
 }
 

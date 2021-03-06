@@ -8,44 +8,57 @@ function About(props) {
     console.log('theme en about', props.theme);
 
 
-    const fondo = props.theme ? 'dia' : 'noche';
-    const cont = fondo + ' container';
+    // const fondo = props.theme ? 'dia' : 'noche';
+    // const cont = fondo + ' container';
 
     return (
-        <div className={cont}>
-            <div className='fantasia'>
-                <div className='education'>
-                    <h2>Education</h2>
-                    <ul>
-                        <li>Henry</li>
-                        <br />
-                        <img src={henry} alt="Henry Certificate"/>
-                        <li>FreeCodeCamp</li>
-                        <br />
-                        <img src={FCC} alt="FreeCodeCamp Certificate"/>
-                        <li>UBA</li>
-                        <span>Actuary, Economy oriented</span>
-                        <li>Cambridge</li>
-                        <span>First Certificate in English: FCE (B1)</span>
-                    </ul>
+        // <div className={cont}>
+        <div className='education'>
+            <h2>Education</h2>
+
+            {/* agregar links a UBA plan de estudis,
+            henry, FreeCodeCamp, cert de FCC, CAmbridge B! */}
+            <div className="content0">
+
+                <div className="content1">
+                    <div>
+                        <div className="box">
+                            <h3>Henry</h3>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                <img src={henry} alt="Henry Certificate"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="box">
+                            <h3>UBA (Universidad de Buenos Aires)</h3>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                <span>Actuary, Economy oriented</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div className='hobbies'>
-                    <h2>Hobbies</h2>
-                    <ul>
-                        <li>Trekking</li>
-                        <li>Esqui</li>
-                        <li>Pelota paleta</li>
-                        <li>Music</li>
-                        <li>Reading</li>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sint cupiditate maxime expedita fugiat accusamus ipsa accusantium dolores suscipit? Odit perspiciatis repellendus ratione laboriosam accusamus molestiae? Quas dignissimos commodi saepe.
-                        Repudiandae dolores veniam nobis soluta molestias vitae veritatis quam officia praesentium fuga debitis beatae vel, ad tenetur dolore reprehenderit laudantium. Aperiam reprehenderit non cupiditate debitis nisi consequatur laborum assumenda dolor!
-                        Non numquam nihil atque expedita laborum eos, corporis repudiandae, sequi tempora in ea aspernatur quidem fuga accusantium officia a minima velit quisquam voluptatum quos alias sit autem doloremque? Earum, a?
-                        Porro fuga repudiandae inventore, aperiam vitae ad doloremque at architecto provident. Soluta porro quas est quidem facilis provident tenetur saepe, nam quos et, obcaecati nisi? Nesciunt quibusdam eius debitis obcaecati.
-                        Sed voluptates minima ut molestias quo voluptatibus nesciunt? Architecto laboriosam fugit nulla laudantium modi magnam provident, labore eum blanditiis sapiente amet? Consequuntur, impedit. Perferendis dignissimos iure tenetur voluptatum dolor aspernatur.
-                        Sed voluptates minima ut molestias quo voluptatibus nesciunt? Architecto laboriosam fugit nulla laudantium modi magnam provident, labore eum blanditiis sapiente amet? Consequuntur, impedit. Perferendis dignissimos iure.</p>
-                    </ul>
+                <div className="content2">
+
+                    <div>
+                        <div className="box">
+                            <h3>FreeCodeCamp</h3>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                <img src={FCC} alt="FreeCodeCamp Certificate"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="box">
+                            <h3>Cambridge University</h3>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                <span>First Certificate in English: FCE (B1)</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
+                {/* </div> */}
         </div>
     )
 }

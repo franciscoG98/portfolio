@@ -11,23 +11,46 @@
     position: relative;
     transition: 2s;
 }
-.container {
+.containerH {
+    width: 80%;
+    margin: auto;
     display: 'flex';
+    position: relative;
     justify-content: 'center';
     align-items: 'center';
-    height: '90vh';
+    padding: 20px;
+
+    background-color: red;
+    border: 2px solid #0000;
 }
 
 .top {
     width: 80%;
     padding: 10px;
     font-size: 25px;
-    background-color: #365;
+    /* background-color: #365; */
     color:#092c3e;
     font-weight: bolder;
     text-align: center;
     margin-left: 10%;
     position: relative;
     transition: 2s;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
+
+/* .tapa {
+    position: absolute;
+    background-color: #0000;
+    color: #fff;
+    
+    transition: maquina 5s infinite;
+}
+
+@keyframes maquina {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+} */
