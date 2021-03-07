@@ -191,6 +191,7 @@ p: nth-child(2)
   display: flex;
   align-content: flex-start;
   margin-left: -450px;
+  align-content: center;
   width: 80%;
   /* height: 175px; */
   /* margin: 7% auto; */
@@ -199,6 +200,8 @@ p: nth-child(2)
 }
 
 h1 {
+  background: linear-gradient(120deg, #F66B6B, #5B71BF);
+
   position: absolute;
   width: 100%;
   height: 50%;
