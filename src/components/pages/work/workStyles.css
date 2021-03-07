@@ -1,0 +1,21 @@
+.workContainer {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    position: relative;
+    /* position: absolute; */
+    background: linear-gradient(120deg, #F66B6B, #5B71BF);
+    margin: auto;
+    padding: 20px;
+
+}
+
+.boxx {
+    background-color: #5B71BF;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid yellow;
+    justify-content: space-between;
+    margin: 10px;
+}

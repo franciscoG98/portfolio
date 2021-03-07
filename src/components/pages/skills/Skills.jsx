@@ -33,8 +33,6 @@ function Skills(props) {
         // <div className={skills}>
 
         <div className="skillsCont">
-            <h1>Skills</h1>
-
             <div className="tech-cont">
                 <div className='tech-cont1'>
                     <h3>Front-end</h3>

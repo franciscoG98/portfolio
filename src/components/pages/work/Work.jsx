@@ -1,9 +1,45 @@
-import React from 'react'
+import React from 'react';
+import './workStyles.css';
 
 function Work() {
     return (
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '90vh'}}>
-            <h1>Work</h1>
+        <div className='workContainer'>
+            <div className="boxx">
+                <h4>work title</h4>
+                <img src="#" alt="imagen"/>
+                <div className="moreInfo">
+                    <span>repo</span>
+                    <br/>
+                    <span>deployed</span>
+                </div>
+            </div>
+            <div className="boxx">
+                <h4>work title</h4>
+                <img src="#" alt="imagen"/>
+                <div className="moreInfo">
+                    <span>repo</span>
+                    <br/>
+                    <span>deployed</span>
+                </div>
+            </div>
+            <div className="boxx">
+                <h4>work title</h4>
+                <img src="#" alt="imagen"/>
+                <div className="moreInfo">
+                    <span>repo</span>
+                    <br/>
+                    <span>deployed</span>
+                </div>
+            </div>
+            <div className="boxx">
+                <h4>work title</h4>
+                <img src="#" alt="imagen"/>
+                <div className="moreInfo">
+                    <span>repo</span>
+                    <br/>
+                    <span>deployed</span>
+                </div>
+            </div>
         </div>
     )
 }

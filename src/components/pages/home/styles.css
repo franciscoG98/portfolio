@@ -23,20 +23,20 @@
     background: linear-gradient(120deg, #F66B6B, #5B71BF);
 } */
 
-span {
+/* span {
     font-size: 28px;
-}
+} */
 
-.top {
+/* .top {
     width: 80%;
     padding: 10px;
-    /* background-color: #365; */
+    background-color: #365;
     color:#092c3e;
     font-weight: bolder;
     text-align: start;
     margin: auto;
     position: relative;
-}
+} */
 
 
   /* ----------------------------------copy paste 1 ----------------------------------*/
@@ -193,8 +193,6 @@ p: nth-child(2)
   margin-left: -450px;
   align-content: center;
   width: 80%;
-  /* height: 175px; */
-  /* margin: 7% auto; */
   text-align: start;
 
 }
@@ -214,9 +212,6 @@ h1:after {
   content: "";
   width: 100%;
   height: 100%;
-  /* line-height: 48px; */
-  /* left: 30%;
-  top: 50%; */
   animation: abomination1 7.5s linear 1;
   animation-fill-mode: forwards;
 }
