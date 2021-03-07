@@ -1,6 +1,5 @@
 # Build
-npm run build
-npm run deploy
+npm run build && npm run deploy
 
 You can see my work [here](https://franciscog98.github.io/portfolio/)
 
