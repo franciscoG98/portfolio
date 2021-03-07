@@ -19,7 +19,7 @@ function Home(props) {
                     <span>(user experience) possible without forgetting the perfomance. The </span>
                     <span>internet is to make our lives easier :)</span>                    
                 </p> */}
-                <h1></h1>
+                <h1> </h1>
             </div>
         // </div>
     )

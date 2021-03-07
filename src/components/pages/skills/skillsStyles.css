@@ -11,21 +11,15 @@
 
 .skillsCont {
     display: 'flex';
-    /* flex-direction: row; */
     flex-wrap: wrap;
     position: relative;
     width: 80%;
     padding: 20px;
     margin: auto;
-    /* margin-left: 10%; */
     justify-content: center;
     align-items: center;
 
     background: linear-gradient(120deg, #F66B6B, #5B71BF);
-}
-
-h1 {
-    text-align: center;
 }
 
 h3 {

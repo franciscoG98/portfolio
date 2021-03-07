@@ -12,6 +12,7 @@ function Contact(props) {
         // <div className={props.theme}>
 
         <div className="contactBox">
+            {/* form */}
             <form>
                 <label>
                     Name:
@@ -33,8 +34,8 @@ function Contact(props) {
                 <br/>
                 <input type="submit" value="send" />
             </form>
+            {/* icons */}
             <div className='social-media'>
-
                 <button>
                     <SiGithub size={60} className='icon' />
                 </button>
@@ -46,23 +47,7 @@ function Contact(props) {
                 </button>
                 <button>
                     <ImDownload size={60} className='icon' />
-                </button>                
-
-                {/* <SiGithub size={60} className='icon'>
-                    <button>
-                    </button>
-                </SiGithub>
-                <GrLinkedin size={60} className='icon'>
-                    <button>
-                    </button>
-                </GrLinkedin>
-                <SiGmail size={60} className='icon'>
-                    <button></button>
-                </SiGmail>
-                <ImDownload size={60} className='icon'>
-                    <button></button>
-                </ImDownload> */}
-                 
+                </button>                                 
             </div>
         </div>
 
