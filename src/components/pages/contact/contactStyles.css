@@ -13,11 +13,11 @@
 }
 
 .contactBox{
-    position: relative;    
-    display: grid;
-    overflow: hidden;
+    position: relative;
     margin-top: 30px;
+    /* overflow: hidden; */
 }
+
 
 .social-media {
     /* background-color: beige; */
@@ -29,21 +29,30 @@
     padding: 30px 0 30px 0;
     /* color: #6f7886; */
 
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5); */
+
     overflow: hidden;
     border: 1px solid #fff;
     border-radius: 20px;
+
+    background: rgba(255, 255, 255, 1.0);
+    background: -webkit-radial-gradient(center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
+    background: -moz-radial-gradient(center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
+
+    
 }
 
-.social-media:before {
+/* .social-media:before {
     background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(330%);
     content: '';
-    height: auto;
     position: absolute;
-}
+    height: auto;
+} */
 
 .icon{
+    background-color: #092c3e;
     border-radius: 10px;
     padding: 5px;
 
@@ -56,7 +65,7 @@
 
 
 .icon:hover {
-    transition: 0.8s;
+    transition: 1s;
     /* tema claro */
     /* color: #fff;
     background-color: #092c3e; */
@@ -64,6 +73,7 @@
     /* tema oscuro */
     color: #092c3e;
     background-color: #fff;
+    box-shadow: 1rem 1rem rgba(0, 0, 0, 0.5);
 }
 
 a {
