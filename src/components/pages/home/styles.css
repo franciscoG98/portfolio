@@ -187,19 +187,32 @@ p: nth-child(2)
 
 
 .containerH {
-  position: relative;
-  display: flex;
-  align-content: flex-start;
-  margin: auto;
-  align-content: center;
-  width: 80%;
-  text-align: start;
-  /* background: linear-gradient(120deg, #F66B6B, #5B71BF); */
+    position: relative;
+    display: flex;
+    align-content: flex-start;
+    margin: auto;
+    align-content: center;
+    width: 80%;
+    height: 250px;
+    text-align: start;
+
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 1.0);
+    background: -webkit-radial-gradient(center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
+    background: -moz-radial-gradient(center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
+
+
 
 }
 
 h1 {
-  /* background: linear-gradient(120deg, #F66B6B, #5B71BF); */
 
   position: absolute;
   width: 100%;
