@@ -37,33 +37,33 @@ function Skills(props) {
                 <div className='tech-cont1'>
                     <h3>Front-end</h3>
                     <ul>
-                        <li><DiJavascript1 size={40} />Javascript ES6</li>
-                        <li><DiReact size={40} />React</li>
-                        <li><DiReact size={40} />React-native</li>
-                        <li><DiCss3 size={40} />CSS3</li>
-                        <li><DiBootstrap size={40} />Bootstrap</li>
-                        <li><SiMaterialUi size={40} />Material UI</li>
-                        <li><SiRedux size={40} />Redux</li>
-                        <li><SiExpo size={40} />Expo-cli</li>
+                        <li><DiJavascript1 size={50} className='icons' />Javascript (ES6)</li>
+                        <li><DiReact size={50} className='icons' />React</li>
+                        <li><SiRedux size={50} className='icons' />Redux</li>
+                        <li><DiReact size={50} className='icons' />React-native</li>
+                        <li><SiExpo size={50} className='icons' />Expo-cli</li>
+                        <li><DiCss3 size={50} className='icons' />CSS3</li>
+                        <li><DiBootstrap size={50} className='icons' />Bootstrap</li>
+                        <li><SiMaterialUi size={50} className='icons' />Material UI</li>
                     </ul>
                 </div>
                 <div className='tech-cont2'>
                     <h3>Back-end</h3>
                     <ul>
-                        <li><SiNodeDotJs size={40} />Node</li>
+                        <li><SiNodeDotJs size={50} className='icons' />Node</li>
                         <li>Express</li>
-                        <li><DiSqllite size={40} />SQLite</li>
-                        <li><SiPostgresql size={40} />PostgreSQL</li>
-                        <li><SiGraphql size={40} />GraphQL</li>
-                        <li><SiMongodb size={40} />MongoDB</li>
+                        <li><DiSqllite size={50} className='icons' />SQLite</li>
+                        <li><SiPostgresql size={50} className='icons' />PostgreSQL</li>
+                        <li><SiGraphql size={50} className='icons' />GraphQL</li>
+                        <li><SiMongodb size={50} className='icons' />MongoDB</li>
                     </ul>
                 </div>
                 <div className='tech-cont3'>
                     <h3>other-ends</h3>
                     <ul>
-                        <li><DiGit size={40} />Git</li>
-                        <li><DiLinux size={40} />Linux</li>
-                        <li><DiScrum size={40} />SCRUM Methodology</li>
+                        <li><DiGit size={50} className='icons' />Git</li>
+                        <li><DiLinux size={50} className='icons' />Linux</li>
+                        <li><DiScrum size={50} className='icons' />SCRUM Methodology</li>
                     </ul>
                 </div>
             </div>
