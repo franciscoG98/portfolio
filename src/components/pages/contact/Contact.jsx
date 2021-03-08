@@ -1,7 +1,7 @@
 import React from 'react';
 import './contactStyles.css';
-import { SiGithub, SiGmail } from "react-icons/si";
-import { GrLinkedin } from "react-icons/gr";
+import { SiGithub, SiGmail  } from "react-icons/si";
+import { GrLinkedinOption } from "react-icons/gr";
 import { ImDownload } from "react-icons/im";
 
 function Contact(props) {
@@ -12,42 +12,19 @@ function Contact(props) {
         // <div className={props.theme}>
 
         <div className="contactBox">
-            {/* form */}
-            <form>
-                <label>
-                    Name:
-                    <br/>
-                    <input type="text" name="name" />
-                </label>
-                <br/>
-                <label>
-                    Email:
-                    <br/>
-                    <input type="text" name="email" />
-                </label>
-                <br/>
-                <label>
-                    Message:
-                    <br/>
-                    <input type="text" name="message" />
-                </label>
-                <br/>
-                <input type="submit" value="send" />
-            </form>
-            {/* icons */}
             <div className='social-media'>
-                <button>
+                <a href="https://github.com/franciscoG98" target="_blank" rel="noopener noreferrer" >
                     <SiGithub size={60} className='icon' />
-                </button>
-                <button>
-                    <GrLinkedin size={60} className='icon' />
-                </button>
-                <button>
+                </a>
+                <a href="https://www.linkedin.com/in/francisco-gonzalez-72aa5a158/" target="_blank" rel="noopener noreferrer" >
+                    <GrLinkedinOption size={60} className='icon' />
+                </a>
+                <a href="mailto:franciscomanuel.gonzalez3@gmail.com" >
                     <SiGmail size={60} className='icon' />
-                </button>
-                <button>
-                    <ImDownload size={60} className='icon' />
-                </button>                                 
+                </a>
+                <a href="./cv/FranciscoG-en.pdf" download>
+                    <ImDownload size={60} className='icon' />                      
+                </a>
             </div>
         </div>
 
