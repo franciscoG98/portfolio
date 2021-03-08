@@ -16,15 +16,13 @@ function About(props) {
         <div className='education'>
             <h2>Education</h2>
 
-            {/* agregar links a UBA plan de estudis,
-            henry, FreeCodeCamp, cert de FCC, CAmbridge B! */}
             <div className="content0">
 
                 <div className="content1">
                     <div>
                         <div className="box">
                             <h3>Henry</h3>
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.soyhenry.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={henry} alt="Henry Certificate"/>
                             </a>
                         </div>
@@ -32,7 +30,7 @@ function About(props) {
                     <div>
                         <div className="box">
                             <h3>UBA (Universidad de Buenos Aires)</h3>
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <a href="http://www.uba.ar/download/academicos/carreras/actuario.pdf" target="_blank" rel="noopener noreferrer">
                                 <span>Actuary, Economy oriented</span>
                             </a>
                         </div>
@@ -43,7 +41,7 @@ function About(props) {
                     <div>
                         <div className="box">
                             <h3>FreeCodeCamp</h3>
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.freecodecamp.org/certification/port3r/javascript-algorithms-and-data-structures" target="_blank" rel="noopener noreferrer">
                                 <img src={FCC} alt="FreeCodeCamp Certificate"/>
                             </a>
                         </div>
@@ -51,7 +49,7 @@ function About(props) {
                     <div>
                         <div className="box">
                             <h3>Cambridge University</h3>
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.cambridgeenglish.org/exams-and-tests/first/" target="_blank" rel="noopener noreferrer">
                                 <span>First Certificate in English: FCE (B1)</span>
                             </a>
                         </div>
