@@ -1,17 +1,18 @@
+
+# This Project is under construction
+
+Anyway, you can see it [here](https://franciscog98.github.io/portfolio/)
+
+
 # Build
 npm run build && npm run deploy
 
-You can see my work [here](https://franciscog98.github.io/portfolio/)
+Tutorials/resources: 
+* [gh-pages deploy and domain](https://www.youtube.com/watch?v=SKXkC4SqtRk).
+* [navigation](https://youtu.be/VzWBLj_CfpE).
+* [theme](https://www.youtube.com/watch?v=_f036OpnuWo).
+* [zoom image with css](http://www.corelangs.com/css/box/zoom.html).
 
-Tutorial [gh-pages deploy and domain](https://www.youtube.com/watch?v=SKXkC4SqtRk).
-Tutorial [navigation](https://youtu.be/VzWBLj_CfpE).
-Tutorial [theme](https://www.youtube.com/watch?v=_f036OpnuWo).
-Tutorial [zoom image with css](http://www.corelangs.com/css/box/zoom.html).
-
-
-yarn add
-    react-router-dom
-    react-icons
 
 
 # Getting Started with Create React App
