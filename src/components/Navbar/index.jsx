@@ -8,7 +8,7 @@ import {
     AiOutlineMail,
     AiOutlineLaptop
 } from "react-icons/ai";
-// import { Link } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 
@@ -17,7 +17,7 @@ function Nabvar(props) {
     // console.log('theme en navbar', props.theme);
 
     return (
-        <div>
+        <Container>
             <Theme theme={props.theme} setTheme={props.setTheme} />
             <div >
                 <nav id='nav' className={props.theme} >
@@ -28,7 +28,7 @@ function Nabvar(props) {
                     <NavLink activeClassName= 'active' className='link' to="/contact/"><AiOutlineMail />Contact</NavLink>
                 </nav>
             </div>
-        </div>
+        </Container>
 
     )
 }
