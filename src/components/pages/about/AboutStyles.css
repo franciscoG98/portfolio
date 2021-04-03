@@ -15,67 +15,68 @@ h2{
 }
 
 .education {
-    position: relative;
-    width: 80%;
+    align-content: center;
+    align-items: baseline;
+    background: hotpink;
+    /* background: rgba(255, 255, 255, 1.0);
+    background: -webkit-radial-gradient(center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
+    background: -moz-radial-gradient(center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0)); */
+    border: 1px solid #fff;
+    border-radius: 20px;
     color:#092c3e;
     font-weight: bolder;
-    align-content: center;
-    
-    padding: 20px;
     justify-content: space-around;
-    align-items: baseline;
-    
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 20px;
-    border: 1px solid #fff;
-    border-radius: 20px;
-
-    background: rgba(255, 255, 255, 1.0);
-    background: -webkit-radial-gradient(center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
-    background: -moz-radial-gradient(center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
-    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
-
-}
-
-.content0 {
-    display: flex;
-    flex-direction: row;
-}
-
-.content1 {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
     position: relative;
+    width: 80vw;
 }
 
-.content2 {
+#container {
+    background: #fff;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: row; */
     position: relative;
-    width: 50%;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 5px solid gold;
+    height: 60vh;
+    margin: auto;
+    padding: 30px;
+    position: relative;
+    width: 30vw;
 }
 
 img {
-    width: 90%;
+    /* align-items: center; */
     height: auto;
-    align-items: center;
-    -webkit-transition: all 2s ease;
-    -moz-transition: all 2s ease;
-    -ms-transition: all 2s ease;
+    /* -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease
+    -webkit-transition: all 2s ease; */
+    margin-left: auto;
     transition: all 2s ease;
+    width: 30vw;
 }
 
-/* img:hover {
-    width: 800px;
-    height: auto;
-    position: absolute;
-    box-shadow: 1.5rem 1.5rem rgba(0, 0, 0, 0.5);
-} */
-
-.box {
-    padding: 30px;
-    border: 5px solid gold;
+/* responsive */
+/* tablet */
+@media screen and (max-width: 700px) {
+    .img {
+        width: 90%;
+        height: auto;
+    }
 }
+
+/* mobile */
+@media screen and (max-width: 400px) {
+    .img {
+        width: 100vw;
+        height: auto;
+    }
+}
+
