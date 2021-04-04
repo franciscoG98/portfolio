@@ -1,6 +1,6 @@
 import React from 'react';
 import './contactStyles.css';
-import { SiGithub, SiGmail  } from "react-icons/si";
+import { SiGithub, SiGmail, SiCodepen } from "react-icons/si";
 import { GrLinkedinOption } from "react-icons/gr";
 import { ImDownload } from "react-icons/im";
 
@@ -9,7 +9,6 @@ function Contact(props) {
     // console.log('theme en contact', props.theme);
 
     return (
-        // <div className={props.theme}>
 
         <div className="contactBox">
             <div className='social-media'>
@@ -25,10 +24,11 @@ function Contact(props) {
                 <a href="./cv/FranciscoG-en.pdf" download>
                     <ImDownload size={60} className='icon' />                      
                 </a>
+                <a href="https://codepen.io/franciscog98" target="_blank" rel="noopener noreferrer" >
+                    <SiCodepen size={60} className='icon' />                      
+                </a>
             </div>
         </div>
-
-        // </div>
     )
 }
 
