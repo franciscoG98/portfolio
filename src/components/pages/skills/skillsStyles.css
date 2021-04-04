@@ -10,57 +10,59 @@
 }
 
 .skillsCont {
-    display: 'flex';
-    flex-wrap: wrap;
-    position: relative;
-    width: 80%;
-    padding: 20px;
-    justify-content: center;
     align-items: center;
+    background: pink;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    display: 'flex';
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    
-    border-radius: 20px;
-    border: 1px solid #fff;
-
-
-    /* background: linear-gradient(120deg, #F66B6B, #5B71BF); */
-
-    background: rgba(255, 255, 255, 1.0);
-    background: -webkit-radial-gradient(center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
-    background: -moz-radial-gradient(center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
-    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
-    
+    padding: 20px;
+    position: relative;
+    width: 80vw;
 }
-
-.skillsCont::before {
-    filter: blur(5px);
-}
-
-
 
 h3 {
     text-align: center;
 }
 
-.tech-cont {
+.wheel {
+    background: #fff;
+    border: 5px solid gold;
     display: flex;
-    flex-direction: row;
-}
- 
-.tech-cont1 {
-    width: 33%;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
+    margin: auto;
+    padding: 30px;
+    position: relative;
+    width: 70vw;
+
 }
 
-.tech-cont2 {
-    width: 33%;
+.Express {
+    font-size: 5vh;
+    color: #092c3e;
+    justify-content: center;
 }
 
-.tech-cont3 {
-    width: 33%;
-}
+.Express:hover {
+    transition: 1s;
+    box-shadow: 1rem 1rem rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    /* tema claro */
+    color: #fff;
+    /* background-color: #092c3e; */
 
+    /* tema oscuro */
+    color: #092c3e;
+    /* background-color: #fff; */
+}
 
 .icons{
     /* background-color: #092c3e; */
@@ -86,3 +88,26 @@ h3 {
     color: #092c3e;
     /* background-color: #fff; */
 }
+
+/* responsive */
+@media screen and (max-width: 1305px) {
+    .wheel {
+        width: 70vw;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .wheel {
+        width: 60vw;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wheel span {
+        transform: scale(1.2);
+        justify-content: flex-start;
+    }
+}
+

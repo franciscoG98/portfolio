@@ -5,16 +5,17 @@ import {
     DiLinux,
     DiReact,
     DiCss3,
+    DiHtml5,
     DiSqllite, 
     DiGit,
     DiScrum, 
     DiBootstrap
 } from "react-icons/di";
 import {
-    SiExpo,
+    // SiExpo,
     SiMaterialUi,
     SiRedux,
-    SiGraphql,
+    // SiGraphql,
     SiMongodb,
     SiNodeDotJs,
     SiPostgresql
@@ -31,47 +32,38 @@ function Skills(props) {
     
     return (
 
-        'hola'
-        // <div className={skills}>
+        <div className="skillsCont">
+            <h3>Front-end</h3>
+            <div className='wheel'>
+                    <span className='icons'><DiJavascript1 size={50} />Javascript (ES6)</span>
+                    <span className='icons'><DiCss3 size={50} />CSS3</span>
+                    <span className='icons'><DiHtml5 size={50} />HTML5</span>
+                    <span className='icons'><DiReact size={50} />React</span>
+                    <span className='icons'><SiRedux size={50} />Redux</span>
+                    {/* <span className='icons'><DiReact size={50} />React-native</span>
+                    <span className='icons'><SiExpo size={50} />Expo-cli</span> */}
+                    <span className='icons'><DiBootstrap size={50} />Bootstrap4</span>
+                    <span className='icons'><SiMaterialUi size={50} />Material UI</span>
 
-        // <div className="skillsCont">
-        //     <div className="tech-cont">
-        //         <div className='tech-cont1'>
-        //             <h3>Front-end</h3>
-        //             <ul>
-        //                 <li><DiJavascript1 size={50} className='icons' />Javascript (ES6)</li>
-        //                 <li><DiReact size={50} className='icons' />React</li>
-        //                 <li><SiRedux size={50} className='icons' />Redux</li>
-        //                 <li><DiReact size={50} className='icons' />React-native</li>
-        //                 <li><SiExpo size={50} className='icons' />Expo-cli</li>
-        //                 <li><DiCss3 size={50} className='icons' />CSS3</li>
-        //                 <li><DiBootstrap size={50} className='icons' />Bootstrap</li>
-        //                 <li><SiMaterialUi size={50} className='icons' />Material UI</li>
-        //             </ul>
-        //         </div>
-        //         <div className='tech-cont2'>
-        //             <h3>Back-end</h3>
-        //             <ul>
-        //                 <li><SiNodeDotJs size={50} className='icons' />Node</li>
-        //                 <li>Express</li>
-        //                 <li><DiSqllite size={50} className='icons' />SQLite</li>
-        //                 <li><SiPostgresql size={50} className='icons' />PostgreSQL</li>
-        //                 <li><SiGraphql size={50} className='icons' />GraphQL</li>
-        //                 <li><SiMongodb size={50} className='icons' />MongoDB</li>
-        //             </ul>
-        //         </div>
-        //         <div className='tech-cont3'>
-        //             <h3>other-ends</h3>
-        //             <ul>
-        //                 <li><DiGit size={50} className='icons' />Git</li>
-        //                 <li><DiLinux size={50} className='icons' />Linux</li>
-        //                 <li><DiScrum size={50} className='icons' />SCRUM Methodology</li>
-        //             </ul>
-        //         </div>
-        //     </div>
-        // </div>
+            </div>
+            <h3>Back-end</h3>
+            <div className='wheel'>
+                    <span className='icons'><SiNodeDotJs size={50} />Node</span>
+                    <span className='Express'>     Express</span>
+                    <span className='icons'><DiSqllite size={50} />SQLite</span>
+                    <span className='icons'><SiPostgresql size={50} />PostgreSQL</span>
+                    {/* <span className='icons'><SiGraphql size={50} />GraphQL</span> */}
+                    <span className='icons'><SiMongodb size={50} />MongoDB</span>
 
-        // </div>
+            </div>
+            <h3>other</h3>
+            <div className='wheel'>
+                    <span className='icons'><DiGit size={50} />Git</span>
+                    <span className='icons'><DiLinux size={50} />Linux</span>
+                    <span className='icons'><DiScrum size={50} />SCRUM Methodology</span>
+
+            </div>
+        </div>
     )
 }
 
