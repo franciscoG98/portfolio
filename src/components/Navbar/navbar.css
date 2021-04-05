@@ -18,9 +18,15 @@
 }
 
 #nav {
-    background-color: #4f5357;
+    /* background-color: #4f5357; */
+    background-color: #E3893B;
+    /* background-color: #3B2096; */
+    /* background-color: #39b43f; */
+
+
+    /* border: 3px solid #E3893B; */
+
     border-radius: 20px;
-    /* border: 2px solid #fff; */
     display: flex;
     font-size: 4vh;
     font-weight: 400;
@@ -33,7 +39,7 @@
 
 .active {
     font-weight: 900;
-    color: #39b43f;
+    color: #4f5357;
     transition: 2s;
     text-decoration: none;
 }
