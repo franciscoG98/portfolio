@@ -12,16 +12,18 @@
 
 h2{
     text-align: center;
+    font-size: 2rem;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .education {
     align-content: center;
     align-items: baseline;
-    background: hotpink;
-    /* background: rgba(255, 255, 255, 1.0);
-    background: -webkit-radial-gradient(center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
-    background: -moz-radial-gradient(center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
-    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0)); */
+    background: pink;
     border: 1px solid #fff;
     border-radius: 20px;
     color:#092c3e;
@@ -36,35 +38,62 @@ h2{
 }
 
 #container {
-    background: #fff;
     display: flex;
-    /* flex-direction: row; */
     position: relative;
     flex-wrap: wrap;
 }
 
 .box {
-    border: 5px solid gold;
+    /* border: 5px solid gold; */
     height: 60vh;
     margin: auto;
-    padding: 30px;
+    /* padding: 30px; */
+    margin-top: 20px;
     position: relative;
     width: 30vw;
 }
 
 img {
-    /* align-items: center; */
     height: auto;
-    /* -moz-transition: all 2s ease;
-    -ms-transition: all 2s ease
-    -webkit-transition: all 2s ease; */
     margin-left: auto;
-    transition: all 2s ease;
+    /* transition: all 2s ease; */
     width: 30vw;
 }
 
+#uba {
+    display: flex;
+    flex-direction: column;
+}
+
+#uba img {
+    border-radius: 50%;
+    height: auto;
+    margin-left: 15%;
+    width: 20vw;
+}
+
+#cambridge {
+    display: flex;
+    flex-direction: column;
+}
+
+#cambridge img {
+    height: auto;
+    width: 30vw;
+}
+
+a span:hover {
+    text-decoration: underline;
+}
+
+a img:hover {
+    margin-top: 20px;
+    transition: 2s;
+    transform: scale(1.05);
+}
+
+
 /* responsive */
-/* tablet */
 @media screen and (max-width: 1305px) {
     .box {
         width: 100vw;
@@ -75,9 +104,19 @@ img {
         height: auto;
         width: 70vw;
     }
+
+    #cambridge img {
+        height: auto;
+        width: 80vw;
+    }
+
+    #uba img {
+        height: auto;
+        margin: auto;
+        width: 80vw;
+    }
 }
 
-/* mobile */
 @media screen and (max-width: 400px) {
     img {
         height: auto;
