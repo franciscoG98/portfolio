@@ -18,7 +18,7 @@ function Nabvar(props) {
 
     return (
         <Container>
-            <Theme theme={props.theme} setTheme={props.setTheme} />
+            {/* <Theme theme={props.theme} setTheme={props.setTheme} /> */}
             <div >
                 <nav id='nav' className={props.theme} >
                     <NavLink activeClassName= 'active' className='link' exact to="/"><AiOutlineHome/><span>Home</span></NavLink>

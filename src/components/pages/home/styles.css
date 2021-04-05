@@ -13,7 +13,7 @@
 }
 
 .containerH {
-    background: pink;
+    background: #4f5357;
     border-radius: 20px;
     display: 'flex';
     margin: auto;
@@ -82,7 +82,8 @@
 }
 
 .header {
-    background: #4f5357;
+    /* background: #4f5357; */
+    background: #57524E;
     color: #fff;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -98,7 +99,7 @@
 }
 
 .bash {
-    color: rgb(57, 180, 63);
+    color: #39b43f;
     display: flex;
     font-weight: 600;
     justify-content: center;
@@ -119,7 +120,7 @@
 }
 
 .bash2 {
-    color: rgb(57, 180, 63);
+    color: #39b43f;
     display: flex;
     font-weight: 600;
     justify-content: center;
@@ -129,7 +130,7 @@
 }
 
 .titila {
-    background-color: rgb(57, 180, 63);
+    background-color: #38b23e;
     height: 20px;
     width: 10px;
     margin: 3px 0 0 5px;

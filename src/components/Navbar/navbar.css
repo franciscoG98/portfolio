@@ -18,9 +18,9 @@
 }
 
 #nav {
-    background-color: #092c3e;
+    background-color: #4f5357;
     border-radius: 20px;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     display: flex;
     font-size: 4vh;
     font-weight: 400;
@@ -33,7 +33,9 @@
 
 .active {
     font-weight: 900;
-    /* transition: 2s; */
+    color: #39b43f;
+    transition: 2s;
+    text-decoration: none;
 }
 
 /* responsive */

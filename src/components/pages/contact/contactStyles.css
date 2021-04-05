@@ -23,8 +23,8 @@
 .social-media {
     /* background-color: beige; */
     /* color: #6f7886; */
-    background-color: pink;
-    border: 1px solid #fff;
+    background-color: #4f5357;
+    /* border: 1px solid #fff; */
     border-radius: 20px;    
     /* box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5); */
     display: flex;
@@ -47,7 +47,7 @@
 } */
 
 .icon{
-    background-color: #092c3e;
+    /* background-color: #E3893B; */
     border-radius: 10px;
     padding: 5px;
 
@@ -55,7 +55,7 @@
     /* color: #092c3e; */
 
     /* tema oscuro */
-    color: #fff;
+    color: #E3893B;
 }
 
 
@@ -66,8 +66,8 @@
     background-color: #092c3e; */
 
     /* tema oscuro */
-    color: #092c3e;
-    background-color: #fff;
+    color: #39b43f;
+    background-color: #4f5357;
     box-shadow: 1rem 1rem rgba(0, 0, 0, 0.5);
 }
 
