@@ -125,7 +125,7 @@
     justify-content: center;
     left: 0;
     position: absolute;
-    top: 30vmin;
+    top: 50%;
 }
 
 .titila {
@@ -150,364 +150,43 @@
     }
 }
 
-/* ----------------------------------- viejo ----------------------------------- */
+/* responsive */
 
-/* .containerH {
-    width: 80%;
-    margin: auto;
-    display: 'flex';
-    position: relative;
-    justify-content: 'center';
-    align-items: 'center';
-    padding: 20px;
-    background: linear-gradient(120deg, #F66B6B, #5B71BF);
-} */
+@media screen and (max-width: 1266px) {
+    .bash {
+        font-size: 1.5vw;
+    }
 
-/* span {
-    font-size: 28px;
-} */
-
-/* .top {
-    width: 80%;
-    padding: 10px;
-    background-color: #365;
-    color:#092c3e;
-    font-weight: bolder;
-    text-align: start;
-    margin: auto;
-    position: relative;
-} */
-
-
-  /* ----------------------------------copy paste 1 ----------------------------------*/
-/* p {
-    border-right: solid 3px rgba(0,255,0,.75);
-    white-space: nowrap;
-    overflow: hidden;    
-    font-family: 'Source Code Pro', monospace;  
-    font-size: 28px;
-    color: rgba(255,255,255,.70);
-} */
-
-/* Animation */
-/* p {
-    animation: animated-text 4s steps(301,end) 10s 1 normal both,
-                animated-cursor 600ms steps(301,end) infinite;
-} */
-
-/* text animation */
-/* @keyframes animated-text{
-    from{width: 0;}
-    to{width: 5100px;}
-} */
-
-/* cursor animations */
-/* @keyframes animated-cursor{
-    from{border-right-color: rgba(0,255,0,.75);}
-    to{border-right-color: transparent;}
-} */
-
-/* end copy paste 1 */
-
-/* ----------------------------------copy paste 2 ----------------------------------*/
-
-/* p {
-    border-right: solid 3px rgba(0,255,0,.75);
-    white-space: nowrap;
-    overflow: hidden;    
-    font-family: 'Source Code Pro', monospace;  
-    font-size: 28px;
-    color: rgba(255,255,255,.70);
-    position: absolute;
-    right: 10px;
-  } */
-  
-  /* Animation */
-  /* p {
-    animation: animated-text 20s steps(301,end) 1s 1 normal both,
-               animated-cursor 600ms steps(301,end) infinite;
-  } */
-  
-  /* text animation */  
-  /* @keyframes animated-text{
-    from{width: 0;}
-    to{width: 5100px;}
-  } */
-  
-  /* cursor animations */  
-  /* @keyframes animated-cursor{
-    from{border-right-color: rgba(0,255,0,.75);}
-    to{border-right-color: transparent;}
-  } */
-
-/* end copy paste 2 */
-
-/* ----------------------------------copy paste 3 ----------------------------------*/
-
-/* p {
-    border-right: solid 3px rgba(0,255,0,.75);
-    white-space: nowrap;
-    overflow: hidden;    
-    font-family: 'Source Code Pro', monospace;  
-    font-size: 28px;
-    color: rgba(255,255,255,.70);
-    margin: 0 auto;
-  } */
-  
-  /* Animation */
-  /* p {
-    animation: animated-text 20s steps(301,end) 1s 1 normal both,
-               animated-cursor 6000ms steps(301,end) infinite;
-  } */
-  
-  /* text animation */  
-  /* @keyframes animated-text{
-    from{width: 0;}
-    to{width: 5100px;}
-  } */
-  
-  /* cursor animations */ 
-  /* @keyframes animated-cursor{
-    from{border-right-color: rgba(0,255,0,.75);}
-    to{border-right-color: transparent;}
-  } */
-
-/* end copy paste 3 */
-
-
-/* ----------------------------------copy paste 4 ----------------------------------*/
-
-/* p {
-  font-family: 'Source Code Pro', monospace;  
-  font-size: 28px;
-  font-weight: bold;
-  width: 400px;
-} */
-/* Animation */
-/*p {
-  animation: animated-text 4s steps(29,end) 1s 1 normal both,
-             animated-cursor 600ms steps(29,end) infinite;
+    .bash2 {
+        font-size: 1.5vw;
+    }
 }
 
-p: nth-child(2)
-{
-    white-space:nowrap;
-    overflow:hidden;    
-   animation: animated-text2 4s steps(29,end) 1s 1 normal both;
-    -webkit-animation-delay: 5s; 
-    animation-delay: 5s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+@media screen and (max-width: 800px) {
+    .terminal {
+        width: 80vw;
+        height: 40vw;
+        left: 0;
+        font-size: 2vw;
+    }
+
+    .text {
+        color: #fff;
+        display: flex;
+        width: 60%;
+        font-size: 2vw;
+    }
+
+    .bash {
+        font-size: 2vw;
+    }
+
+    .bash2 {
+        top: 50%;
+        font-size: 2vw;
+    }
+
+    .tux span {
+        display: none;
+    }
 }
-
-/* text animation */
-
-/*@keyframes animated-text{
-  from{width: 0;}
-  to{width: 472px;}
-}
-
-@keyframes animated-text2{
-  from{width: 0;}
-  to{width: 472px;}
-}
-
-/* cursor animations */
-
-/*@keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
-  to{border-right-color: transparent;}
-}
-
-/* end copy paste 4 */
-
-
-
-/* this isnt copy paste but es una re mil paja, vamos a ver que sale */
-
-
-/* .containerH {
-    position: relative;
-    display: flex;
-    align-content: flex-start;
-    margin: auto;
-    align-content: center;
-    width: 80%;
-    height: 250px;
-    text-align: start;
-
-
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 20px;
-    border: 1px solid #fff;
-    border-radius: 20px;
-
-    background: rgba(255, 255, 255, 1.0);
-    background: -webkit-radial-gradient(center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
-    background: -moz-radial-gradient(center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
-    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1.0), rgba(8, 36, 50, 1.0));
-
-
-
-}
-
-h1 {
-
-  position: absolute;
-  width: 100%;
-  height: 50%;
-  font-size: 45px;
-}
-
-h1:after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  animation: abomination1 7.5s linear 1;
-  animation-fill-mode: forwards;
-}
-
-
-@keyframes abomination1 {
-
-    0% {
-        content: "I'm"
-    }
-    2% {
-        content: "I'm a"
-    }
-    4% {
-        content: "I'm a Full";
-    }
-    6% {
-        content: "I'm a Full Stack";
-    }
-    8% {
-        content: "I'm a Full Stack Developer";
-    }
-    10% {
-        content: "I'm a Full Stack Developer from";
-    }
-    12% {
-        content: "I'm a Full Stack Developer from Argentina";
-    }
-    14% {
-        content: "I'm a Full Stack Developer from Argentina.";
-    }
-    16% {
-        content: "I'm a Full Stack Developer from Argentina. ";
-    }
-    18% {
-        content: "I'm a Full Stack Developer from Argentina. I";
-    }
-    19% {
-        content: "I'm a Full Stack Developer from Argentina. I love";
-    }
-    20% {
-        content: "I'm a Full Stack Developer from Argentina. I love design";
-    }
-    22% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and";
-    }
-    24% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build";
-    }
-    26% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive";
-    }
-    28% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and bhuild responsive websites";
-    }
-    30% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites.";
-    }
-    32% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My";
-    }
-    34% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal";
-    }
-    36% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is";
-    }
-    37% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is ...";
-    }
-    40% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is ?";
-    }
-    52% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is ...oh right!!!";
-    }
-    58% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is"
-    }
-    60% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to "
-    }
-    62% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make"
-    }
-    64% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web "
-    }
-    66% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages"
-    }
-    68% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or "
-    }
-    70% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile"
-    }
-    72% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps"
-    }
-    74% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as "
-    }
-    76% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier "
-    }
-    78% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier as "
-    }
-    80% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier as they"
-    }
-    82% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier as they can"
-    }
-    84% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier as they can be"
-    }
-    86% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier as they can be. The "
-    }
-    88% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier as they can be. The internet"
-    }
-    90% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier as they can be. The internet is "
-    }
-    92% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier as they can be. The internet is to "
-    }
-    94% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier as they can be. The internet is to make "
-    }
-    95% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier as they can be. The internet is to make our "
-    }
-    96% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier as they can be. The internet is to make our lives"
-    }
-    97% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier as they can be. The internet is to make our lives easier"
-    }
-    100% {
-        content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier as they can be. The internet is to make our lives easier :)"
-    }
-} */
