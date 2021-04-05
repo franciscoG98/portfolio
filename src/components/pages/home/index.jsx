@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import tux from '../../img/tux.png';
 
 function Home(props) {
 
@@ -9,18 +10,15 @@ function Home(props) {
 
 
     return (
-        // <div className={theme}>
-            <div className='containerH'>
-                {/* <p className='top'>
-                    <span>I'm a Full Stack Developer front-end oriented from Argentina. I love    </span>
-                    <span> design and build responsive websites. My goal is to make web pages </span>
-                    <span>or mobile apps as prettier as they can be, with the best UX </span>
-                    <span>(user experience) possible without forgetting the perfomance. The </span>
-                    <span>internet is to make our lives easier :)</span>                    
-                </p> */}
-                <h1> </h1>
+        <div className='containerH'>
+            <div className="terminal"></div>
+            <div className="tux">
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src={tux} alt="tux linux pet"/>
             </div>
-        // </div>
+        </div>
     )
 }
 

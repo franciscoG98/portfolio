@@ -12,6 +12,73 @@
     transition: 2s;
 }
 
+.containerH {
+    background: pink;
+    border-radius: 20px;
+    display: 'flex';
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+    width: 80vw;
+}
+
+img {
+    height: auto;
+    padding: 10px;
+    /* width: 15vmin; */
+}
+
+.tux {
+    background: #708090;
+    padding: 10px;
+    position: relative;
+    width: 35vw;
+}
+
+.tux span:nth-child(1) {
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    height: 1.5rem;
+    right: 130px;
+    top: 100px;
+    width: 1.5rem;
+}
+
+.tux span:nth-child(2) {
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    height: 2.5rem;
+    right: 80px;
+    top: 60px;
+    width: 2.5rem;
+}
+
+.tux span:nth-child(3) {
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    height: 3.5rem;
+    right: 20px;
+    top: 10px;
+    width: 3.5rem;
+}
+
+
+.terminal {
+    background: #708090;
+    display: flex;
+    height: 60vh;
+    left: 35vw;
+    position: relative;
+    width: 45vw;
+}
+
+/* ----------------------------------- viejo ----------------------------------- */
+
 /* .containerH {
     width: 80%;
     margin: auto;
@@ -186,7 +253,7 @@ p: nth-child(2)
 /* this isnt copy paste but es una re mil paja, vamos a ver que sale */
 
 
-.containerH {
+/* .containerH {
     position: relative;
     display: flex;
     align-content: flex-start;
@@ -370,5 +437,4 @@ h1:after {
     100% {
         content: "I'm a Full Stack Developer from Argentina. I love design and build responsive websites. My goal is to make web pages or mobile apps as prettier as they can be. The internet is to make our lives easier :)"
     }
-
-}
+} */
