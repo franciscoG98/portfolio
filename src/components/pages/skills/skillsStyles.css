@@ -15,7 +15,6 @@
     border: 1px solid #fff;
     border-radius: 20px;
     display: 'flex';
-    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
@@ -31,8 +30,6 @@ h3 {
 }
 
 .wheel {
-    background: #fff;
-    border: 5px solid gold;
     display: flex;
     flex-wrap: wrap;
     height: auto;
