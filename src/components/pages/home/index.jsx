@@ -2,6 +2,8 @@ import React from 'react';
 import './styles.css';
 import tux from '../../img/tux.png';
 
+import { AiOutlineCode } from "react-icons/ai";
+
 function Home(props) {
 
     // const theme = useState(props.theme)
@@ -11,8 +13,19 @@ function Home(props) {
 
     return (
         <div className='containerH'>
-            <div className="terminal"></div>
+            <div className="terminal">
+                <span className="header"><AiOutlineCode className='bashIcon' /> portfolio:node - Konsole</span>
+                <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
+                    <span className="text">
+                        Hi there! my name is francisco, I'm a full-stack web developer (trainee/Jr). I prefer frontend rather than backend, anyway I like to code, and I love to learn 
+                    </span>
+                </span>
+                <span className="bash2">[pancho@pancho-aspirees1311 <p>~</p> ] $
+                    <span className="titila"></span>
+                </span>
+            </div>
             <div className="tux">
+                {/* los spans son las burbujas de dialogo de tux */}
                 <span></span>
                 <span></span>
                 <span></span>

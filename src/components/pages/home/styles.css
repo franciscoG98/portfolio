@@ -24,57 +24,130 @@
     width: 80vw;
 }
 
-img {
+.tux img {
+    display: flex;
     height: auto;
+    margin: auto;
     padding: 10px;
-    /* width: 15vmin; */
+    width: 12vw;
 }
 
 .tux {
-    background: #708090;
     padding: 10px;
     position: relative;
-    width: 35vw;
+    padding-top: 15vmin;
+    width: 15vw;
 }
 
 .tux span:nth-child(1) {
-    background: #fff;
+    background: #4f5357;
     border-radius: 50%;
     position: absolute;
     height: 1.5rem;
-    right: 130px;
+    right: 30px;
     top: 100px;
     width: 1.5rem;
 }
 
 .tux span:nth-child(2) {
-    background: #fff;
+    background: #4f5357;
     border-radius: 50%;
     position: absolute;
-    height: 2.5rem;
-    right: 80px;
+    height: 2rem;
+    right: -15px;
     top: 60px;
-    width: 2.5rem;
+    width: 2rem;
 }
 
 .tux span:nth-child(3) {
-    background: #fff;
+    background: #4f5357;
     border-radius: 50%;
     position: absolute;
-    height: 3.5rem;
-    right: 20px;
+    height: 2.5rem;
+    right: -70px;
     top: 10px;
-    width: 3.5rem;
+    width: 2.5rem;
 }
 
 
 .terminal {
-    background: #708090;
+    background: #202020;
+    border-radius: 10px;
     display: flex;
-    height: 60vh;
-    left: 35vw;
+    font-size: 20px;
+    height: calc(50vw * 0.55);
+    left: 25vw;
     position: relative;
-    width: 45vw;
+    width: 50vw;
+}
+
+.header {
+    background: #4f5357;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 5vmin;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.bashIcon {
+    margin-top: 8px;
+}
+
+.bash {
+    color: rgb(57, 180, 63);
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 6vmin;
+}
+
+.bash p {
+    color: #fff;
+    margin-top: -1px;
+}
+
+.text {
+    color: #fff;
+    display: flex;
+    width: 50%;
+}
+
+.bash2 {
+    color: rgb(57, 180, 63);
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 30vmin;
+}
+
+.titila {
+    background-color: rgb(57, 180, 63);
+    height: 20px;
+    width: 10px;
+    margin: 3px 0 0 5px;
+    animation: 0.4s ease infinite alternate blink;
+}
+
+.bash2 p {
+    color: #fff;
+    margin-top: -1px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* ----------------------------------- viejo ----------------------------------- */
