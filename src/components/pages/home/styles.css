@@ -165,7 +165,7 @@
 
 @media screen and (max-width: 800px) {
     .terminal {
-        width: 80vw;
+        width: 70vw;
         height: 40vw;
         left: 0;
         font-size: 2vw;
@@ -174,17 +174,17 @@
     .text {
         color: #fff;
         display: flex;
-        width: 60%;
-        font-size: 2vw;
+        width: 55%;
+        font-size: 1.8vw;
     }
 
     .bash {
-        font-size: 2vw;
+        font-size: 1.8vw;
     }
 
     .bash2 {
         top: 50%;
-        font-size: 2vw;
+        font-size: 1.8vw;
     }
 
     .tux span {
