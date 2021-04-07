@@ -1,9 +1,11 @@
 import React from 'react';
 import './AboutStyles.css';
-import henry from '../../img/HenryCertificate.png';
-import FCC from '../../img/JS-FCC.png';
-import UBA from '../../img/uba.png';
-import CAMBRIDGE from '../../img/cambridgeU.png';
+// import henry from '../../img/HenryCertificate.png';
+// import FCC from '../../img/JS-FCC.png';
+// import UBA from '../../img/uba.png';
+// import CAMBRIDGE from '../../img/cambridgeU.png';
+
+import Carousel from './Carousel.jsx';
 
 
 function About(props) {
@@ -17,8 +19,8 @@ function About(props) {
     return (
         <div className='education'>
             <h2>Education</h2>
-
-            <div id="container">
+            {/* hola */}
+            {/* <div id="container">
                 <div className="box">
                     <h3>Henry</h3>
                     <a href="https://www.soyhenry.com/" target="_blank" rel="noopener noreferrer">
@@ -45,8 +47,11 @@ function About(props) {
                     </a>
                     <img src={CAMBRIDGE} alt="CAmbridge University Logo"/>
                 </div>
-            </div>
+            </div> */}
+            <Carousel />
+
         </div>
+
     )
 }
 
