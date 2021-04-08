@@ -17,6 +17,11 @@
     color: #fff;
 }
 
+.link:hover {
+    text-decoration: none;
+    color: #4f5357;
+}
+
 #nav {
     /* background-color: #4f5357; */
     background-color: #E3893B;

@@ -1,8 +1,8 @@
 import React from 'react';
 import henry from '../../img/HenryCertificate.png';
 import FCC from '../../img/JS-FCC.png';
-import UBA from '../../img/uba.png';
-import CAMBRIDGE from '../../img/cambridgeU.png';
+// import UBA from '../../img/uba.png';
+// import CAMBRIDGE from '../../img/cambridgeU.png';
  
 import Carousel from 'react-bootstrap/Carousel'  
 import './carouselStyles.css';
@@ -16,11 +16,13 @@ function BCarousel() {
                 <Carousel.Item>  
                     <img 
                         src={henry}  
+                        alt='henry certificate'
                     />  
                 </Carousel.Item  >  
                 <Carousel.Item>  
                     <img 
                         src={FCC}    
+                        alt='FreeCodeCamp certificate'
                     />  
                 </Carousel.Item>  
                 {/* <Carousel.Item>  

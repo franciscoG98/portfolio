@@ -83,11 +83,11 @@ img {
     width: 30vw;
 }
 
-a span:hover {
+.education a span:hover {
     text-decoration: underline;
 }
 
-a img:hover {
+.education a img:hover {
     margin-top: 20px;
     transition: 2s;
     transform: scale(1.05);

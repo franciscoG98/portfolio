@@ -1,0 +1,47 @@
+.main-footer {
+    background: #4f5357;
+    padding: 10px;
+    margin-top: 25vh;
+}
+
+.footerContainer {
+    color: #4f5357;
+    font-size: 1.5vw;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 40vw;
+}
+
+.footer-bottom {
+    color: #a3adb8;
+    text-align: center;
+}
+
+.icon{
+    border-radius: 10px;
+    padding: 5px;
+    color: #39b43f;
+}
+
+.icon:hover {
+    transition: 1s;
+    color: #E3893B;
+    background-color: #4f5357;
+    box-shadow: 1rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.list-unstyled a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.list-unstyled span:hover {
+    text-decoration: none;
+    color: #39b43f;
+}
+
+.row h4{
+    color: #E3893B;
+    font-weight: 900;
+}

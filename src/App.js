@@ -6,7 +6,9 @@ import Home from './components/pages/home';
 import About from './components/pages/about/About';
 import Skills from './components/pages/skills/Skills';
 import Work from './components/pages/work/Work';
-import Contact from './components/pages/contact/Contact';
+import Resume from './components/pages/Resume/resume';
+
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -26,8 +28,9 @@ function App() {
         <Route exact path='/about' component={About} theme={theme} />
         <Route exact path='/skills' component={Skills} theme={theme} />
         <Route exact path='/work' component={Work} theme={theme} />
-        <Route exact path='/contact' component={Contact} theme={theme} />
+        <Route exact path='/resume' component={Resume} theme={theme} />
       </Switch>
+      <Footer />
     </Router>
   );
 }

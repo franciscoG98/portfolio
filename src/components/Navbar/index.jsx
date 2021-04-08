@@ -1,6 +1,6 @@
 import React from 'react';
 import "./navbar.css";
-import Theme from './Theme';
+// import Theme from './Theme';
 import {
     AiOutlineHome,
     AiOutlineBook,
@@ -25,7 +25,7 @@ function Nabvar(props) {
                     <NavLink activeClassName= 'active' className='link' to="/about/"><AiOutlineBook /><span>About</span></NavLink>
                     {/* <NavLink activeClassName= 'active' className='link' to="/work/"><AiOutlineLaptop /><span>Work</span></NavLink> */}
                     <NavLink activeClassName= 'active' className='link' to="/skills/"><AiOutlineCode /><span>Skills</span></NavLink>
-                    <NavLink activeClassName= 'active' className='link' to="/contact/"><AiOutlineMail /><span>Contact</span></NavLink>
+                    <NavLink activeClassName= 'active' className='link' to="/resume/"><AiOutlineMail /><span>Resume</span></NavLink>
                 </nav>
             </div>
         </Container>
