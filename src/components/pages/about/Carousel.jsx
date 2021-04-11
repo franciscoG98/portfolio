@@ -10,7 +10,7 @@ import './carouselStyles.css';
 function BCarousel() {
     return (
         // <div className='container-fluid' >  
-        <div>
+        <div className='Carousel'>
             <Carousel>  
                 <Carousel.Item>  
                     <img 

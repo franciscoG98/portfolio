@@ -1,0 +1,11 @@
+.cvViewer {
+    width: 80vw;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.cvViewer img {
+    border: 10px solid #E3893B;
+    width: 60vw;
+    margin: 0 10% 0 10%;
+}

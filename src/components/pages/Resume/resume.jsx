@@ -1,16 +1,17 @@
 import React from 'react';
+// import CVes from './cv/screenCVes.png';
+import CVen from './cv/screenCVen.png';
+
 import './resumeStyles.css';
 
-function Contact() {
+function Resume() {
 
-    // console.log('theme en contact', props.theme);
 
     return (
-
-        <div className="resumeBox">
-            
-        </div>
-    )
+      <div className="cvViewer">
+        <img src={CVen} alt="curriculum screenshot" className="cvContainer"/>
+      </div>
+    ) 
 }
 
-export default Contact;
+export default Resume;

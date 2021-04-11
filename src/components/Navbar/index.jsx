@@ -4,13 +4,11 @@ import "./navbar.css";
 import {
     AiOutlineHome,
     AiOutlineBook,
-    AiOutlineCode,
-    AiOutlineMail,
-    // AiOutlineLaptop
+    AiOutlineCode
 } from "react-icons/ai";
+import { RiNewspaperLine } from "react-icons/ri";
 import { Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-
 
 function Nabvar(props) {
 
@@ -25,7 +23,7 @@ function Nabvar(props) {
                     <NavLink activeClassName= 'active' className='link' to="/about/"><AiOutlineBook /><span>About</span></NavLink>
                     {/* <NavLink activeClassName= 'active' className='link' to="/work/"><AiOutlineLaptop /><span>Work</span></NavLink> */}
                     <NavLink activeClassName= 'active' className='link' to="/skills/"><AiOutlineCode /><span>Skills</span></NavLink>
-                    <NavLink activeClassName= 'active' className='link' to="/resume/"><AiOutlineMail /><span>Resume</span></NavLink>
+                    <NavLink activeClassName= 'active' className='link' to="/resume/"><RiNewspaperLine /><span>Resume</span></NavLink>
                 </nav>
             </div>
         </Container>
