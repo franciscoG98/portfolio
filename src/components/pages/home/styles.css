@@ -24,6 +24,80 @@
     width: 80vw;
 }
 
+/* terminal */
+.terminal {
+    background: #202020;
+    border-radius: 10px;
+    display: flex;
+    font-size: 20px;
+    height: calc(50vw * 0.55);
+    left: 7vw;
+    position: relative;
+    width: 70vw;
+}
+
+.header {
+    /* background: #4f5357; */
+    background: #57524E;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 5vmin;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.bashIcon {
+    margin-top: 8px;
+}
+
+.bash {
+    color: #39b43f;
+    display: flex;
+    font-weight: 700;
+    left: 0.5vw;
+    position: absolute;
+    top: 5vmin;
+    white-space: nowrap;
+    width: 25vw;
+
+}
+
+.bash p {
+    color: #fff;
+    margin-top: -1px;
+}
+
+.body .bash:nth-child(1) {
+    margin-top: 0;
+}
+.body .bash:nth-child(2) {
+    margin-top: 5vh;
+}
+.body .bash:nth-child(3) {
+    margin-top: 10vh;
+}
+.body .bash:nth-child(4) {
+    margin-top: 15vh;
+}
+.body .bash:nth-child(5) {
+    margin-top: 20vh;
+}
+.body .bash:nth-child(6) {
+    margin-top: 25vh;
+}
+
+.text {
+    color: #fff;
+    display: inline;
+    font-weight: 400;
+    margin-left: 5px;
+    width: 45vw;
+}
+
+/* tux */
 .tux img {
     display: flex;
     height: auto;
@@ -68,88 +142,7 @@
     top: 10px;
     width: 2.5rem;
 }
-
-
-.terminal {
-    background: #202020;
-    border-radius: 10px;
-    display: flex;
-    font-size: 20px;
-    height: calc(50vw * 0.55);
-    left: 25vw;
-    position: relative;
-    width: 50vw;
-}
-
-.header {
-    /* background: #4f5357; */
-    background: #57524E;
-    color: #fff;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 5vmin;
-    justify-content: center;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-}
-
-.bashIcon {
-    margin-top: 8px;
-}
-
-.bash {
-    color: #39b43f;
-    display: flex;
-    font-weight: 600;
-    justify-content: center;
-    left: 0;
-    position: absolute;
-    top: 6vmin;
-}
-
-.bash p {
-    color: #fff;
-    margin-top: -1px;
-}
-
-.text {
-    color: #fff;
-    display: flex;
-    width: 50%;
-}
-
-.bash2 {
-    color: #39b43f;
-    display: flex;
-    font-weight: 600;
-    justify-content: center;
-    left: 0;
-    position: absolute;
-    top: 50%;
-}
-
-.titila {
-    background-color: #38b23e;
-    height: 20px;
-    width: 10px;
-    margin: 3px 0 0 5px;
-    animation: 0.4s ease infinite alternate blink;
-}
-
-.bash2 p {
-    color: #fff;
-    margin-top: -1px;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
+/* tux */
 
 /* responsive */
 

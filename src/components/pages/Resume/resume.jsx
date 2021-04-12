@@ -8,9 +8,9 @@ function Resume() {
 
 
     return (
-      <div className="cvViewer">
-        <img src={CVen} alt="curriculum screenshot" className="cvContainer"/>
-      </div>
+        <div className="cvViewer">
+            <img src={CVen} alt="curriculum screenshot" className="cvContainer"/>
+        </div>
     ) 
 }
 

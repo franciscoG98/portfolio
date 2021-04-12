@@ -15,14 +15,37 @@ function Home(props) {
         <div className='containerH'>
             <div className="terminal">
                 <span className="header"><AiOutlineCode className='bashIcon' /> portfolio:node - Konsole</span>
-                <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
-                    <span className="text">
-                        Hi there! my name is francisco, I'm a full-stack web developer (trainee/Jr). I prefer frontend rather than backend, anyway I like to code, and I love to learn 
+                {/* terminal body */}
+                <div className="body">
+
+                    <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
+                        <span className="text">
+                            Hi there! my name is francisco
+                        </span>
                     </span>
-                </span>
-                <span className="bash2">[pancho@pancho-aspirees1311 <p>~</p> ] $
-                    <span className="titila"></span>
-                </span>
+                    <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
+                        <span className="text">
+                            I'm a full-stack web developer (trainee/Jr) based in Bs As, Argentina
+                        </span>
+                    </span>
+                    <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
+                        <span className="text">
+                            I like to code, and I love to learn new technologies
+                        </span>
+                    </span>
+                    <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
+                        <span className="text">
+                            I think the internet is for making our lives easier
+                        </span>
+                    </span>
+                    <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
+                        <span className="text">
+                            I'm open to colaborate in new projects, or work anywhere
+                        </span>
+                    </span>
+
+                </div>
+                {/* terminal body */}
             </div>
             <div className="tux">
                 {/* los spans son las burbujas de dialogo de tux */}
