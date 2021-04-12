@@ -97,6 +97,84 @@
     width: 45vw;
 }
 
+.typer1 {
+    margin: 0 auto;
+    width: 0em;
+    font-size: 1em;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #39b43f;
+    animation: typewritter 3s steps(30, end) normal forwards, cursor 500ms steps(30) forwards;
+}
+
+.typer2 {
+    margin: 0 auto;
+    width: 0em;
+    font-size: 1em;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #39b43f;
+    animation: typewritter 3s steps(69, end) normal forwards, cursor 500ms steps(69) forwards;
+    animation-delay: 2s
+}
+
+.typer3 {
+    margin: 0 auto;
+    width: 0em;
+    font-size: 1em;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #39b43f;
+    animation: typewritter 3s steps(52, end) normal forwards, cursor 500ms steps(52) forwards;
+    animation-delay: 5s
+}
+
+.typer4 {
+    margin: 0 auto;
+    width: 0em;
+    font-size: 1em;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #39b43f;
+    animation: typewritter 3s steps(51, end) normal forwards, cursor 500ms steps(51) forwards;
+    animation-delay: 8s
+}
+
+.typer5 {
+    margin: 0 auto;
+    width: 0em;
+    font-size: 1em;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #39b43f;
+    animation: typewritter 3s steps(56, end) normal forwards, cursor 500ms steps(56) infinite;
+    animation-delay: 11s
+}
+  
+@keyframes typewritter {
+    form {
+        width: 0;
+    }
+    to{
+        width: 45vw;
+    }
+}
+  
+@keyframes cursor {
+    from {
+        border-right-color: #39b43f;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+  
+
 /* tux */
 .tux img {
     display: flex;
@@ -174,12 +252,7 @@
     .bash {
         font-size: 1.8vw;
     }
-
-    .bash2 {
-        top: 50%;
-        font-size: 1.8vw;
-    }
-
+    
     .tux span {
         display: none;
     }

@@ -20,27 +20,37 @@ function Home(props) {
 
                     <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
                         <span className="text">
-                            Hi there! my name is francisco
+                            <p className="typer1">
+                                Hi there! my name is francisco
+                            </p>                        
                         </span>
                     </span>
                     <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
                         <span className="text">
-                            I'm a full-stack web developer (trainee/Jr) based in Bs As, Argentina
+                            <p className="typer2">
+                                I'm a full-stack web developer (trainee/Jr) based in Bs As, Argentina
+                            </p>
                         </span>
                     </span>
                     <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
                         <span className="text">
-                            I like to code, and I love to learn new technologies
+                            <p className="typer3">
+                                I like to code, and I love to learn new technologies
+                            </p>
                         </span>
                     </span>
                     <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
                         <span className="text">
-                            I think the internet is for making our lives easier
+                            <p className="typer4">
+                                I think the internet is for making our lives easier
+                            </p>
                         </span>
                     </span>
                     <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
                         <span className="text">
-                            I'm open to colaborate in new projects, or work anywhere
+                            <p className="typer5">
+                                I'm open to colaborate in new projects, or work anywhere
+                            </p>
                         </span>
                     </span>
 
