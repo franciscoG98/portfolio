@@ -30,10 +30,10 @@
     border-radius: 10px;
     display: flex;
     font-size: 20px;
-    height: calc(50vw * 0.55);
-    left: 7vw;
+    height: calc(50vw * 0.6);
+    margin: auto;
     position: relative;
-    width: 70vw;
+    width: 60vw;
 }
 
 .header {
@@ -42,27 +42,24 @@
     color: #fff;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    height: 5vmin;
+    font-size: 1.2vw;
+    height: 3vw;
     justify-content: center;
     position: absolute;
     text-align: center;
     width: 100%;
 }
 
-.bashIcon {
-    margin-top: 8px;
-}
-
 .bash {
     color: #39b43f;
     display: flex;
+    font-size: 1.2vw;
     font-weight: 700;
     left: 0.5vw;
     position: absolute;
     top: 5vmin;
     white-space: nowrap;
-    width: 25vw;
-
+    width: 20vw;
 }
 
 .bash p {
@@ -70,25 +67,27 @@
     margin-top: -1px;
 }
 
+/* define bash lines space */
 .body .bash:nth-child(1) {
     margin-top: 0;
 }
 .body .bash:nth-child(2) {
-    margin-top: 5vh;
+    margin-top: 2vw;
 }
 .body .bash:nth-child(3) {
-    margin-top: 10vh;
+    margin-top: 4vw;
 }
 .body .bash:nth-child(4) {
-    margin-top: 15vh;
+    margin-top: 6vw;
 }
 .body .bash:nth-child(5) {
-    margin-top: 20vh;
+    margin-top: 8vw;
 }
 .body .bash:nth-child(6) {
-    margin-top: 25vh;
+    margin-top: 10vw;
 }
 
+/* tipewritter machine animation */
 .text {
     color: #fff;
     display: inline;
@@ -104,8 +103,8 @@
     font-weight: 400;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 4px solid #39b43f;
-    animation: typewritter 3s steps(30, end) normal forwards, cursor 500ms steps(30) forwards;
+    border-right: 0.5em solid #39b43f;
+    animation: typewritter 3s steps(30, end) normal forwards, cursor 3s steps(10) forwards;
 }
 
 .typer2 {
@@ -115,9 +114,9 @@
     font-weight: 400;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 4px solid #39b43f;
-    animation: typewritter 3s steps(69, end) normal forwards, cursor 500ms steps(69) forwards;
-    animation-delay: 2s
+    border-right: 0.5em solid #39b43f;
+    animation: typewritter 3s steps(69, end) normal forwards, cursor 3s steps(10) forwards;
+    animation-delay: 4s
 }
 
 .typer3 {
@@ -127,9 +126,9 @@
     font-weight: 400;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 4px solid #39b43f;
-    animation: typewritter 3s steps(52, end) normal forwards, cursor 500ms steps(52) forwards;
-    animation-delay: 5s
+    border-right: 0.5em solid #39b43f;
+    animation: typewritter 3s steps(52, end) normal forwards, cursor 3s steps(10) forwards;
+    animation-delay: 8s
 }
 
 .typer4 {
@@ -139,9 +138,9 @@
     font-weight: 400;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 4px solid #39b43f;
-    animation: typewritter 3s steps(51, end) normal forwards, cursor 500ms steps(51) forwards;
-    animation-delay: 8s
+    border-right: 0.5em solid #39b43f;
+    animation: typewritter 3s steps(51, end) normal forwards, cursor 3s steps(10) forwards;
+    animation-delay: 12s
 }
 
 .typer5 {
@@ -151,31 +150,32 @@
     font-weight: 400;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 4px solid #39b43f;
-    animation: typewritter 3s steps(56, end) normal forwards, cursor 500ms steps(56) infinite;
-    animation-delay: 11s
+    border-right: 0.5em solid #39b43f;
+    animation: typewritter 3s steps(56, end) normal forwards, cursor 500ms steps(100) infinite;
+    animation-delay: 16s
 }
   
 @keyframes typewritter {
-    form {
-        width: 0;
-    }
-    to{
-        width: 45vw;
-    }
+    form { width: 0; }
+    to { width: 31vw; }
 }
   
 @keyframes cursor {
-    from {
-        border-right-color: #39b43f;
-    }
-    to {
-        border-right-color: transparent;
-    }
+    0% {border-right-color: #39b43f;}
+    90% {border-right-color: #39b43f;}
+    100% {border-right-color: transparent;}
 }
-  
+/* end tipewritter machine animation */
+
 
 /* tux */
+.tux {
+    padding: 10px;
+    position: relative;
+    padding-top: 15vmin;
+    width: 15vw;
+}
+
 .tux img {
     display: flex;
     height: auto;
@@ -184,57 +184,47 @@
     width: 12vw;
 }
 
-.tux {
-    padding: 10px;
-    position: relative;
-    padding-top: 15vmin;
-    width: 15vw;
-}
-
+/* tux dialog */
 .tux span:nth-child(1) {
     background: #E3893B;
     border-radius: 50%;
     position: absolute;
-    height: 1.5rem;
+    height: 1.5vw;
     right: 30px;
     top: 100px;
-    width: 1.5rem;
+    width: 1.5vw;
 }
 
 .tux span:nth-child(2) {
     background: #E3893B;
     border-radius: 50%;
     position: absolute;
-    height: 2rem;
+    height: 2.5vw;
     right: -15px;
     top: 60px;
-    width: 2rem;
+    width: 2.5vw;
 }
 
 .tux span:nth-child(3) {
     background: #E3893B;
     border-radius: 50%;
     position: absolute;
-    height: 2.5rem;
+    height: 5vw;
     right: -70px;
     top: 10px;
-    width: 2.5rem;
+    width: 5vw;
 }
-/* tux */
+/* end tux */
 
 /* responsive */
 
-@media screen and (max-width: 1266px) {
+/* @media screen and (max-width: 1266px) {
     .bash {
         font-size: 1.5vw;
     }
+} */
 
-    .bash2 {
-        font-size: 1.5vw;
-    }
-}
-
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .terminal {
         width: 70vw;
         height: 40vw;
@@ -256,4 +246,4 @@
     .tux span {
         display: none;
     }
-}
+} */

@@ -14,7 +14,7 @@ function Home(props) {
     return (
         <div className='containerH'>
             <div className="terminal">
-                <span className="header"><AiOutlineCode className='bashIcon' /> portfolio:node - Konsole</span>
+                <span className="header"><AiOutlineCode /> portfolio:node - Konsole</span>
                 {/* terminal body */}
                 <div className="body">
 
@@ -23,12 +23,12 @@ function Home(props) {
                             <p className="typer1">
                                 Hi there! my name is francisco
                             </p>                        
-                        </span>
                     </span>
+                        </span>
                     <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
                         <span className="text">
                             <p className="typer2">
-                                I'm a full-stack web developer (trainee/Jr) based in Bs As, Argentina
+                                I'm a full-stack web developer based in Bs As, Argentina
                             </p>
                         </span>
                     </span>
@@ -49,7 +49,7 @@ function Home(props) {
                     <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
                         <span className="text">
                             <p className="typer5">
-                                I'm open to colaborate in new projects, or work anywhere
+                                I'm open to colaborate in new projects, or work!
                             </p>
                         </span>
                     </span>
