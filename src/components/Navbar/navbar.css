@@ -24,16 +24,13 @@
 
 #nav {
     /* background-color: #4f5357; */
-    background-color: #E3893B;
     /* background-color: #3B2096; */
     /* background-color: #39b43f; */
-
-
-    /* border: 3px solid #E3893B; */
-
+    background-color: #E3893B;
     border-radius: 20px;
+    /* border: 3px solid #E3893B; */
     display: flex;
-    font-size: 4vh;
+    font-size: 4vw;
     font-weight: 400;
     justify-content: space-around;
     margin: auto;
@@ -51,16 +48,16 @@
 
 /* responsive */
 /* tablet */
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
     .link span {
         font-size: 3vw;
     }
-}
+} */
 
 /* mobile */
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
     .link span {
         font-size: 3vw;
     }
-}
+} */
 

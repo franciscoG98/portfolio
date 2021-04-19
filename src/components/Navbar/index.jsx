@@ -17,15 +17,13 @@ function Nabvar(props) {
     return (
         <Container>
             {/* <Theme theme={props.theme} setTheme={props.setTheme} /> */}
-            <div >
-                <nav id='nav' className={props.theme} >
-                    <NavLink activeClassName= 'active' className='link' exact to="/"><AiOutlineHome/><span>Home</span></NavLink>
-                    <NavLink activeClassName= 'active' className='link' to="/about/"><AiOutlineBook /><span>About</span></NavLink>
-                    {/* <NavLink activeClassName= 'active' className='link' to="/work/"><AiOutlineLaptop /><span>Work</span></NavLink> */}
-                    <NavLink activeClassName= 'active' className='link' to="/skills/"><AiOutlineCode /><span>Skills</span></NavLink>
-                    <NavLink activeClassName= 'active' className='link' to="/resume/"><RiNewspaperLine /><span>Resume</span></NavLink>
-                </nav>
-            </div>
+            <nav id='nav' className={props.theme} >
+                <NavLink activeClassName= 'active' className='link' exact to="/"><AiOutlineHome/><span>Home</span></NavLink>
+                <NavLink activeClassName= 'active' className='link' to="/about/"><AiOutlineBook /><span>About</span></NavLink>
+                {/* <NavLink activeClassName= 'active' className='link' to="/work/"><AiOutlineLaptop /><span>Work</span></NavLink> */}
+                <NavLink activeClassName= 'active' className='link' to="/skills/"><AiOutlineCode /><span>Skills</span></NavLink>
+                <NavLink activeClassName= 'active' className='link' to="/resume/"><RiNewspaperLine /><span>Resume</span></NavLink>
+            </nav>
         </Container>
 
     )
