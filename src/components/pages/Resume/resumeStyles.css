@@ -9,3 +9,8 @@
     width: 60vw;
     margin: 0 10% 0 10%;
 }
+
+input[type="checkbox"]:checked ~ .aver{
+    background: #E3893B;
+    /* box-shadow: 0 0 0 1200px #092c3e; */
+}
