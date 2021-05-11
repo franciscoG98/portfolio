@@ -1,24 +1,3 @@
-.light{
-    font-weight: bolder;
-    color: #092c3e;
-    position: relative;
-    transition: 2s;
-}
-
-.dark{
-    font-weight: bolder;
-    color: #fff;
-    position: relative;
-    transition: 2s;
-}
-
-.containerH {
-    display: 'flex';
-    margin: auto;
-    position: relative;
-    width: 80vw;
-}
-
 /* terminal */
 .terminal {
     background: #202020;
@@ -27,7 +6,6 @@
     font-size: 20px;
     height: calc(50vw * 0.6);
     margin: auto;
-    margin-top: 50px;
     position: relative;
     width: 60vw;
 }
@@ -53,7 +31,7 @@
     font-weight: 700;
     left: 0.5vw;
     position: absolute;
-    top: 7vmin;
+    top: 5vmin;
     white-space: nowrap;
     width: 20vw;
 }
@@ -135,111 +113,6 @@
     white-space: nowrap;
     overflow: hidden;
     border-right: 0.5em solid #39b43f;
-    animation: typewritter 3s steps(51, end) normal forwards, cursor 3s steps(10) forwards;
+    animation: typewritter 3s steps(51, end) normal forwards, cursor 3s steps(10) infinite;
     animation-delay: 12s
 }
-
-.typer5 {
-    margin: 0 auto;
-    width: 0em;
-    font-size: 1em;
-    font-weight: 400;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 0.5em solid #39b43f;
-    animation: typewritter 3s steps(56, end) normal forwards, cursor 500ms steps(100) infinite;
-    animation-delay: 16s
-}
-  
-@keyframes typewritter {
-    form { width: 0; }
-    to { width: 31vw; }
-}
-  
-@keyframes cursor {
-    0% {border-right-color: #39b43f;}
-    90% {border-right-color: #39b43f;}
-    100% {border-right-color: transparent;}
-}
-/* end tipewritter machine animation */
-
-
-/* tux */
-.tux {
-    padding: 10px;
-    position: relative;
-    padding-top: 15vmin;
-    width: 15vw;
-}
-
-.tux img {
-    display: flex;
-    height: auto;
-    margin: auto;
-    padding: 10px;
-    width: 12vw;
-}
-
-/* tux dialog */
-.tux span:nth-child(1) {
-    background: #E3893B;
-    border-radius: 50%;
-    position: absolute;
-    height: 1.5vw;
-    right: 30px;
-    top: 100px;
-    width: 1.5vw;
-}
-
-.tux span:nth-child(2) {
-    background: #E3893B;
-    border-radius: 50%;
-    position: absolute;
-    height: 2.5vw;
-    right: -15px;
-    top: 60px;
-    width: 2.5vw;
-}
-
-.tux span:nth-child(3) {
-    background: #E3893B;
-    border-radius: 50%;
-    position: absolute;
-    height: 5vw;
-    right: -70px;
-    top: 10px;
-    width: 5vw;
-}
-/* end tux */
-
-/* responsive */
-
-/* @media screen and (max-width: 1266px) {
-    .bash {
-        font-size: 1.5vw;
-    }
-} */
-
-/* @media screen and (max-width: 800px) {
-    .terminal {
-        width: 70vw;
-        height: 40vw;
-        left: 0;
-        font-size: 2vw;
-    }
-
-    .text {
-        color: #fff;
-        display: flex;
-        width: 55%;
-        font-size: 1.8vw;
-    }
-
-    .bash {
-        font-size: 1.8vw;
-    }
-    
-    .tux span {
-        display: none;
-    }
-} */

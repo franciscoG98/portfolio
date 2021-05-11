@@ -28,7 +28,7 @@ function Home(props) {
                     <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
                         <span className="text">
                             <p className="typer2">
-                                I'm a full-stack web developer based in Bs As, Argentina
+                                I'm a full-stack web dev from Bariloche, based in Bs As
                             </p>
                         </span>
                     </span>
@@ -49,7 +49,7 @@ function Home(props) {
                     <span className="bash">[pancho@pancho-aspirees1311 <p>~</p> ] $
                         <span className="text">
                             <p className="typer5">
-                                I'm open to colaborate in new projects, or work!
+                                I'm open to work or colaborate in new projects!
                             </p>
                         </span>
                     </span>
