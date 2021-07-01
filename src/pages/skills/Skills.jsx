@@ -13,12 +13,10 @@ import {
     DiSass,
 } from "react-icons/di";
 import {
-    // SiExpo,
     SiSlack,
     SiMaterialUi,
     SiRedux,
     SiPostman,
-    // SiGraphql,
     SiMariadbfoundation,
     SiMongodb,
     SiNodeDotJs,
@@ -31,21 +29,17 @@ function Skills(props) {
     console.log('theme en skills', props.theme);
 
 
-    // let fondo = props.theme ? 'dei' : 'nait';
-    // let skills = fondo + ' mainCont';
     
     return (
 
         <div className="skillsCont">
             <h3>Front-end</h3>
             <div className='wheel'>
-                    <span className='icons'><DiJavascript1 size={50} />Javascript (ES6)</span>
+                    <span className='icons'><DiJavascript1 size={50} />Javascript</span>
                     <span className='icons'><DiCss3 size={50} />CSS3</span>
                     <span className='icons'><DiHtml5 size={50} />HTML5</span>
                     <span className='icons'><DiReact size={50} />React</span>
                     <span className='icons'><SiRedux size={50} />Redux</span>
-                    {/* <span className='icons'><DiReact size={50} />React-native</span>
-                    <span className='icons'><SiExpo size={50} />Expo-cli</span> */}
                     <span className='icons'><DiBootstrap size={50} />Bootstrap4</span>
                     <span className='icons'><SiMaterialUi size={50} />Material UI</span>
                     <span className='icons'><DiSass size={50} />Sass</span>
@@ -58,7 +52,6 @@ function Skills(props) {
                 <span className='Express'>     Express</span>
                 <span className='icons'><DiSqllite size={50} />SQLite</span>
                 <span className='icons'><SiPostgresql size={50} />PostgreSQL</span>
-                {/* <span className='icons'><SiGraphql size={50} />GraphQL</span> */}
                 <span className='icons'><SiMongodb size={50} />MongoDB</span>
                 <span className='icons'><SiMariadbfoundation size={50} />MariaDB</span>
             </div>

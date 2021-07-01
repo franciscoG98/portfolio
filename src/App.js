@@ -1,22 +1,18 @@
 import React from "react";
-// import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavBar from './components/Navbar';
-import Home from './components/pages/home';
-import About from './components/pages/about/About';
-import Skills from './components/pages/skills/Skills';
-import Work from './components/pages/work/Work';
-
-// cambiar esta verga
 import Footer from './components/Footer/Footer';
 
+import Home from './pages/home';
+import About from './pages/about/About';
+import Skills from './pages/skills/Skills';
+import Work from './pages/work/Work';
 
-// borrar resume quien deja esa info online?????
+
+
 
 function App() {
-
-  // const [theme, setTheme] = useState('light');
 
   return (
     <Router basename={process.env.PUBLIC_URL}>

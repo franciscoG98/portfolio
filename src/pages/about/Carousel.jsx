@@ -1,8 +1,7 @@
 import React from 'react';
-import henry from '../../img/HenryCertificate.png';
-import FCCJS from '../../img/JS-FCC.png';
-import FCCWD from '../../img/WD-FCC.png';
- 
+import henry from '../../assets/img/HenryCertificate.png';
+import FCCJS from '../../assets/img/JS-FCC.png';
+import FCCWD from '../../assets/img/WD-FCC.png';
 import Carousel from 'react-bootstrap/Carousel'  
 import './carouselStyles.css';
 
