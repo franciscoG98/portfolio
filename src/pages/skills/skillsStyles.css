@@ -4,26 +4,24 @@
 }
 
 .nait {
-    position: absolute;
     color: #fff;
+    position: absolute;
     transition: 2s;
 }
 
 .skillsCont {
     align-items: center;
     background: #4f5357;
-    /* border: 1px solid #fff; */
+    /* border: 10px solid rgb(18, 22, 78); */
     border-radius: 20px;
     color: #fff;
     /* color: #E3893B; */
     /* color: #38b23e; */
-
     display: 'flex';
     flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
     padding: 20px;
     position: relative;
     width: 80vw;
@@ -36,11 +34,9 @@ h3 {
 .wheel {
     display: flex;
     flex-wrap: wrap;
-    height: auto;
     justify-content: space-around;
     margin: auto;
     padding: 30px;
-    position: relative;
     width: 70vw;
 }
 
@@ -52,42 +48,27 @@ h3 {
 }
 
 .Express:hover {
-    transition: 1s;
+    /* background-color: #092c3e; */
     box-shadow: 1rem 1rem rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    padding: 5px;
-    /* tema claro */
-    color: #fff;
-    /* background-color: #092c3e; */
-
-    /* tema oscuro */
     color: #E3893B;
-    /* background-color: #fff; */
+    padding: 5px;
+    transition: 1s;
 }
 
 .icons{
     /* background-color: #092c3e; */
+    color: #38b23e;
     border-radius: 10px;
     padding: 5px;
-
-    /* tema claro */
-    color: #38b23e;
-
-    /* tema oscuro */
-    /* color: #fff; */
 }
 
 
 .icons:hover {
-    transition: 1s;
-    box-shadow: 1rem 1rem rgba(0, 0, 0, 0.5);
-    /* tema claro */
-    /* color: #fff; */
     /* background-color: #092c3e; */
-
-    /* tema oscuro */
+    box-shadow: 1rem 1rem rgba(0, 0, 0, 0.5);
     color: #E3893B;
-    /* background-color: #fff; */
+    transition: 1s;
 }
 
 /* responsive */
