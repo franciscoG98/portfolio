@@ -1,0 +1,29 @@
+.cardContainer {
+    align-items: center;
+    background-color: rgb(56, 178, 62);
+    /* opacity: .95; */
+    border-radius: 20px;
+    justify-content: center;
+    height: 425px;
+    width: 400px;
+    margin: 20px;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 2em;
+    color: #656d75;
+}
+
+.card-img {
+    height: 250px;
+    width: fit-content;
+}
+
+.card-body {
+    align-items: center;
+    justify-content: center;   
+}

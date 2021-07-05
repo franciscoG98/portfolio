@@ -1,0 +1,23 @@
+.education {
+    align-content: center;
+    align-items: baseline;
+    background-color: rgba(227, 137, 59, 0.445);
+    border-radius: 20px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1.2);
+    color:#fff;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+    width: 80vw;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+}

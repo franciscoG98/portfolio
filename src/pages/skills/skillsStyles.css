@@ -1,0 +1,57 @@
+.skillsCont {
+    align-items: center;
+    background-color: rgba(227, 137, 59, 0.445);
+    border-radius: 20px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1.2);
+    color: #E3893B;
+    display: 'flex';
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    position: relative;
+    width: 80vw;
+}
+
+h3 {
+    text-align: center;
+    color: #4f5357;
+}
+
+.wheel {
+    display: flex;
+    flex-wrap:inherit;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+}
+
+.Express {
+    border-radius: 10px;
+    color: #E3893B;
+    font-size: 2em;
+}
+
+.Express:hover {
+    box-shadow: 1rem 1rem rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: rgb(227, 137, 59);
+    padding: 5px;
+    transition: 1s;
+}
+
+.icons{
+    background-color: #4f5357;
+    color: #38b23e;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.icons:hover {
+    box-shadow: 1rem 1rem rgba(0, 0, 0, 0.5);
+    color: #E3893B;
+    transition: 1s;
+}

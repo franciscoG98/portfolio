@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
-import tux from '../../img/tux.png';
+import tux from '../../assets/img/tux.png';
+
 
 import { AiOutlineCode } from "react-icons/ai";
 
