@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7c690b61.chunk.css",
+    "main.css": "/portfolio/static/css/main.047d739c.chunk.css",
     "main.js": "/portfolio/static/js/main.a81c7029.chunk.js",
     "main.js.map": "/portfolio/static/js/main.a81c7029.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.57dc74e3.js",
@@ -12,7 +12,7 @@
     "static/js/3.0eba3090.chunk.js.map": "/portfolio/static/js/3.0eba3090.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.3542fc70.chunk.css.map": "/portfolio/static/css/2.3542fc70.chunk.css.map",
-    "static/css/main.7c690b61.chunk.css.map": "/portfolio/static/css/main.7c690b61.chunk.css.map",
+    "static/css/main.047d739c.chunk.css.map": "/portfolio/static/css/main.047d739c.chunk.css.map",
     "static/js/2.13922bfd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.13922bfd.chunk.js.LICENSE.txt",
     "static/media/HenryCertificate.b688a846.png": "/portfolio/static/media/HenryCertificate.b688a846.png",
     "static/media/JS-FCC.e818f795.png": "/portfolio/static/media/JS-FCC.e818f795.png",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.57dc74e3.js",
     "static/css/2.3542fc70.chunk.css",
     "static/js/2.13922bfd.chunk.js",
-    "static/css/main.7c690b61.chunk.css",
+    "static/css/main.047d739c.chunk.css",
     "static/js/main.a81c7029.chunk.js"
   ]
 }
