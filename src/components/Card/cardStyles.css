@@ -20,7 +20,7 @@
 
 .card-img {
     height: 250px;
-    width: fit-content;
+    width: auto;
 }
 
 .card-body {

@@ -15,18 +15,16 @@
 }
 
 .icon{
+    background-color: #4f5357;
     border-radius: 10px;
     color: #39b43f;
-    background-color: #4f5357;
     margin: 10px;
-    align-items: center;
-
 }
 
 .icon:hover {
-    color: #E3893B;
     background-color: #4f5357;
     box-shadow: 1rem 1rem rgba(0, 0, 0, 0.5);
+    color: #E3893B;
     transition: 1s;
 }
 
@@ -37,9 +35,11 @@
     font-size: 1.5em;
 }
 
-.footer__link:hover {
+/* .footer__link:hover {
+    color: #E3893B;
     text-decoration: none;
-}
+    transition: 1s;
+} */
 
 .footer-bottom {
     color: #4f5357;
