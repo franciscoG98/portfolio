@@ -1,24 +1,14 @@
 .workContainer {
+    background-color: rgba(227, 137, 59, 0.445);
+    border-radius: 20px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1.2);
     display: flex;
-    flex-direction: row;
-    width: 80%;
-    position: relative;
+    flex-direction: row;   
     margin: auto;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
+    width: 80%;
 }
 
-.construction {
-    margin-top: 20px;
-    max-width: 800px;
-}
-
-.boxx {
-    background-color: #5B71BF;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    border: 2px solid yellow;
-    justify-content: space-between;
-    margin: 10px;
+.cardRow {
+    justify-content: space-around;
 }

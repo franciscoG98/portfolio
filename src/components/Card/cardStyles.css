@@ -1,6 +1,6 @@
 .cardContainer {
     align-items: center;
-    background-color: rgb(56, 178, 62);
+    background-color: #4f5357;
     /* opacity: .95; */
     border-radius: 20px;
     justify-content: center;
@@ -15,7 +15,14 @@
 
 .subtitle {
     font-size: 2em;
-    color: #656d75;
+    color: #38b23e;
+    text-decoration: none;
+}
+
+.subtitle:hover {
+    font-size: 2em;
+    color: #38b23e;
+    text-decoration: underline;
 }
 
 .card-img {

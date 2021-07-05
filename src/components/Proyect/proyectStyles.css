@@ -1,0 +1,35 @@
+.project-container {
+    background: #4f5357;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-header {
+    color: #38b23e;
+}
+
+.project-title {
+    font-weight: 700;
+}
+
+.project-body {
+    padding: 30px;
+}
+
+.project-body a {
+    color: #E3893B;
+    text-decoration: none;
+}
+
+.project-body a:hover {
+    color: #38b23e;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.project-body p {
+    color: #fff;
+}
