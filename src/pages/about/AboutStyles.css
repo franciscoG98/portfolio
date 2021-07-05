@@ -1,10 +1,9 @@
 .education {
     align-content: center;
     align-items: baseline;
-    background-color: #4f5357;
-    /* border: 1px solid #fff; */
+    background-color: rgba(227, 137, 59, 0.445);
     border-radius: 20px;
-    /* color:#E3893B; */
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1.2);
     color:#fff;
     display: flex;
     flex-wrap: wrap;
@@ -22,34 +21,3 @@ h2{
     text-align: center;
     font-size: 2rem;
 }
-
-/* @media screen and (max-width: 1305px) {
-    .box {
-        width: 100vw;
-        height: auto;
-    }
-
-    img {
-        height: auto;
-        width: 70vw;
-    }
-
-    #cambridge img {
-        height: auto;
-        width: 80vw;
-    }
-
-    #uba img {
-        height: auto;
-        margin: auto;
-        width: 80vw;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    img {
-        height: auto;
-        width: 100%;
-    }
-} */
-

@@ -22,50 +22,44 @@ import {
     SiNodeDotJs,
     SiPostgresql
 } from "react-icons/si";
+import { Col, Row } from 'react-bootstrap'
 
 
 function Skills(props) {
-
-    console.log('theme en skills', props.theme);
-
-
-    
+   
     return (
 
         <div className="skillsCont">
             <h3>Front-end</h3>
-
-
-            {/* POR FAVOR UN COL ROW DE REACT BOOTSTRAP ACA URGENTE ME HACE MAL A LOS OJOS ESTA PORQUERIA */}
-            <div className='wheel'>
-                <span className='col-md-4 icons'><DiJavascript1 size={50} />Javascript</span>
-                <span className='col-md-4 icons'><DiCss3 size={50} />CSS3</span>
-                <span className='col-md-4 icons'><DiHtml5 size={50} />HTML5</span>
-                <span className='col-md-4 icons'><DiReact size={50} />React</span>
-                <span className='col-md-4 icons'><SiRedux size={50} />Redux</span>
-                <span className='col-md-4 icons'><DiBootstrap size={50} />Bootstrap4</span>
-                <span className='col-md-4 icons'><SiMaterialUi size={50} />Material UI</span>
-                <span className='col-md-4 icons'><DiSass size={50} />Sass</span>
-            </div>
+            <Row className='wheel'>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><DiHtml5 size={60} /><br/>HTML5</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><DiCss3 size={60} /><br/>CSS3</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><DiJavascript1 size={60} /><br/>Javascript</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><DiReact size={60} /><br/>React</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><SiRedux size={60} /><br/>Redux</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><DiBootstrap size={60} /><br/>Bootstrap</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><SiMaterialUi size={60} /><br/>Material UI</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><DiSass size={60} /><br/>Sass</Col>
+            </Row>
 
             <h3>Back-end</h3>
-            <div className='wheel'>
-                <span className='col-md-4 icons'><SiNodeDotJs size={50} />Node</span>
-                <span className='col-md-4 Express'>     Express</span>
-                <span className='col-md-4 icons'><DiSqllite size={50} />SQLite</span>
-                <span className='col-md-4 icons'><SiPostgresql size={50} />PostgreSQL</span>
-                <span className='col-md-4 icons'><SiMongodb size={50} />MongoDB</span>
-                <span className='col-md-4 icons'><SiMariadbfoundation size={50} />MariaDB</span>
-            </div>
+            <Row className='wheel'>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><SiNodeDotJs size={60} /><br/>Node</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons Express">Express</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><DiSqllite size={60} /><br/>SQLite</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><SiPostgresql size={60} /><br/>PostgreSQL</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><SiMongodb size={60} /><br/>MongoDB</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><SiMariadbfoundation size={60} /><br/>MariaDB</Col>
+            </Row>
 
             <h3>Tools</h3>
-            <div className='wheel'>
-                <span className='col-md-4 icons'><DiGit size={50} />Git</span>
-                <span className='col-md-4 icons'><DiLinux size={50} />Linux</span>
-                <span className='col-md-4 icons'><DiScrum size={50} />SCRUM Methodology</span>
-                <span className='col-md-4 icons'><SiSlack size={50} />Slack</span>
-                <span className='col-md-4 icons'><SiPostman size={50} />Postman</span>
-            </div>
+            <Row className='wheel'>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><DiGit size={60} /><br/>Git</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><DiLinux size={60} /><br/>Linux</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><DiScrum size={60} /><br/>SCRUM</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><SiSlack size={60} /><br/>Slack</Col>
+                <Col xs={6} sm={4} md={3} lg={2} className="icons"><SiPostman size={60} /><br/>Postman</Col>
+            </Row>
         </div>
     )
 }

@@ -1,20 +1,14 @@
-.light{
-    font-weight: bolder;
-    color: #092c3e;
-    position: relative;
-    transition: 2s;
-}
-
-.dark{
-    font-weight: bolder;
-    color: #fff;
-    position: relative;
-    transition: 2s;
-}
-
 .containerH {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .2);
+    overflow: hidden;
+
+    background-color: rgba(227, 137, 59, 0.445);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1.2);
+    border-radius: 20px;
+
     display: 'flex';
     margin: auto;
+    margin-top: 50px;
     position: relative;
     width: 80vw;
 }
@@ -33,7 +27,6 @@
 }
 
 .header {
-    /* background: #4f5357; */
     background: #57524E;
     color: #fff;
     border-top-left-radius: 10px;
