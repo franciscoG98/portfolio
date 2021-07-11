@@ -11,7 +11,7 @@ const Card = ({ title, image, imgAlt, repo, siteLink, description }) => {
             <div className="project-container">
                 <div className="project-header">
                     <h2 className="project-title">{title}</h2>
-                    <img className="card-img" alt={imgAlt} src={image} />
+                    <img className="project-img" alt={imgAlt} src={image} />
                 </div>
 
                 <Row className="project-body">

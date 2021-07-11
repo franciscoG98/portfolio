@@ -15,8 +15,18 @@
     font-weight: 700;
 }
 
+.project-img {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+}
+
 .project-body {
     padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .project-body a {

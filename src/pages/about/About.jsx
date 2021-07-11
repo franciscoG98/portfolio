@@ -13,9 +13,6 @@ import CAMBRIDGE from '../../assets/img/cambridgeU.png';
 
 function About(props) {
 
-    console.log('theme en about', props.theme);
-
-
     return (
         <>
             <h2>Education</h2>
