@@ -28,6 +28,7 @@
 .card-img {
     height: 250px;
     width: auto;
+    max-width: 370px;
 }
 
 .card-body {
