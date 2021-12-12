@@ -46,3 +46,16 @@ This site is doplyed on Github-Pages.
 ```
 npm run build && npm run deploy
 ```
+
+## NOTES
+
+<p>
+I'm a <b>stubborn self-taugh web developer</b>, I've started in web development in Henry Bootcamp,
+then I've obtained the FreeCodeCamp certifications for, responsive web design, javascript, and
+front-end libraries, in addition I've made a QA tester course on utn-free. I'm a proud *nux, in my free time I do in my free time is to lear about cybersec. I'd like to contribute on github project
+or smt like that, contributing to open software would make me very proud, so that's on my
+bucket list.
+This is my web site and usefull links
+My goal is to use my experience as web dev and match it with my new testing knowdlege,
+maybe I'd be able to become a dev ops in the future if I work ward
+</p>
